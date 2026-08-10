@@ -41,11 +41,9 @@ def main():
             navegador.avancar()
 
         elif opcao == "4":
-            print("\nPágina atual:")
             print(navegador.get_pagina_atual())
 
         elif opcao == "5":
-            print("\n===== HISTÓRICO COMPLETO =====")
             navegador.exibir_historico_completo()
 
         elif opcao == "0":

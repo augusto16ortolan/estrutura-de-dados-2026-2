@@ -10,29 +10,57 @@ class Navegador:
         self._historico_completo = [] # inicia zerado, mas no futuro conterá Historico (classe)
 
     def visitar(self, pagina):
-        # a pagina que recebemos como parametro deve setar na pagina atual
-        # caso a pagina atual anterior for diferente de None, deve ser incluida da pilha das anteriors
-        # deve adicionar o pagina na lista de historicos _historico_completo.append(Historico(pagina))
-        pass
+        if pagina == self._pagina_atual:
+            print(f"Voce já está na página {pagina}")
+            return
+
+        if self._pagina_atual != None:
+            self._paginas_anteriores.push(self._pagina_atual)
+
+        self._pagina_atual = pagina
+
+        print(f"Navegado para {pagina}")
+
+        self._historico_completo.append(Historico(pagina))
 
     def voltar(self):
-        # validar se existe alguma pagina anterior
-        # se existir, o topo da pagina anterior vira a pagina atual
-        # e a antiga pagina atual vai para a pilha de futuras
-        # adicionar novamente no historico de navegacao
-        pass
+        if self._paginas_anteriores.is_empty():
+            print("Não há páginas para voltar")
+            return
+
+        self._paginas_futuras.push(self._pagina_atual)
+        self._pagina_atual = self._paginas_anteriores.pop()
+
+        print(f"Voltando para {self._pagina_atual}")
+
+        self._historico_completo.append(Historico(self._pagina_atual))
 
     def avancar(self):
-        # validar se existe alguma pagina futura
-        # se existir, o topo da pagina futura vira a pagina atual
-        # e a antiga pagina atual vai para a pilha de anteriores
-        # adicionar novamente no historico de navegacao
-        pass
+        if self._paginas_futuras.is_empty():
+            print("Não há páginas para avançar")
+            return
+
+        self._paginas_anteriores.push(self._pagina_atual)
+        self._pagina_atual = self._paginas_futuras.pop()
+
+        print(f"Avançando para {self._pagina_atual}")
+
+        self._historico_completo.append(Historico(self._pagina_atual))
 
     def get_pagina_atual(self):
-        # devolve a pagina atual
-        pass
+        return self._pagina_atual
 
     def exibir_historico_completo(self):
-        # iterar a lista de historico e printar cada objeto historico
-        pass
+        if len(self._historico_completo) == 0:
+            print("Não há histórico de navegação")
+            return
+
+        print("\n===== HISTÓRICO COMPLETO =====")
+
+        for historico in self._historico_completo:
+            if historico.site == self._pagina_atual:
+                print(f"Página atual -> {historico}")
+                return
+
+            print(historico)
+        
