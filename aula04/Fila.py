@@ -27,6 +27,8 @@ class Fila:
     def __len__(self):
         return len(self._lista_de_valores)
 
+    def get_lista_de_valores(self):
+        return self._lista_de_valores
 
 fila = Fila()
 fila.enqueue(10)
