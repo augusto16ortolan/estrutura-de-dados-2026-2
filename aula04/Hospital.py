@@ -26,17 +26,24 @@ class Hospital:
         return None
 
     def exibir_order_atendimento(self):
-        quantidade_em_prioridade = self._fila_prioridade.size()
-        quantidade_em_normal = self._fila_normal.size()
+        fila_prioridade = self._fila_prioridade.get_lista_de_valores().copy()
+        fila_normal = self._fila_normal.get_lista_de_valores().copy()
+
+        quantidade_prioridade_atendido = self._quantidade_prioridade_atendido
 
         print("====== ORDEM DE ATENDIMENTO ======")
 
         contador = 1
-        for paciente in self._fila_prioridade.get_lista_de_valores():
-            print(f"Paciente {contador}: {paciente}")
-            contador += 1
 
-        for paciente in self._fila_normal.get_lista_de_valores():
+        while fila_prioridade or fila_normal:
+            if fila_prioridade and (quantidade_prioridade_atendido < 3 or not fila_normal):
+                paciente = fila_prioridade.pop(0)
+                quantidade_prioridade_atendido += 1
+
+            elif fila_normal:
+                paciente = fila_normal.pop(0)
+                quantidade_prioridade_atendido = 0
+
             print(f"Paciente {contador}: {paciente}")
             contador += 1
 
