@@ -1,0 +1,909 @@
+{"kind":"deck","id":"pr/6qbu9b","name":"Deck"}
+{"kind":"layout","layoutId":"3db5f19e-52d9-4688-bfed-2dd1de4505c1","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"bc69010f-a760-40ca-af4f-8eeebb57bcf8","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/op5ai1","slide":1,"title":"ESTRUTURA DE DADOS","textShapes":4}
+{"kind":"shape","id":"sh/jexc3ahw","slide":1,"bbox":[0,0,420,720]}
+{"kind":"shape","id":"sh/kf6tcvyh","slide":1,"bbox":[420,0,22,720]}
+{"kind":"textbox","id":"sh/lgfu50z2","slide":1,"text":"ESTRUTURA DE DADOS","textPreview":"ESTRUTURA DE DADOS","textChars":18,"textLines":1,"bbox":[64,82,290,28]}
+{"kind":"textbox","id":"sh/6hobe5g7","slide":1,"text":"Trabalho Avaliativo","textPreview":"Trabalho Avaliativo","textChars":19,"textLines":1,"bbox":[486,112,650,170]}
+{"kind":"textbox","id":"sh/7ihc7ahs","slide":1,"text":"Sistema de Estoque e Vendas com Python","textPreview":"Sistema de Estoque e Vendas com Python","textChars":38,"textLines":1,"bbox":[490,314,610,78]}
+{"kind":"textbox","id":"sh/8jqtgfyd","slide":1,"text":"Estrutura de Dados • Valor: 2,0 pontos • Entrega: 11/09/2026 às 23:59","textPreview":"Estrutura de Dados • Valor: 2,0 pontos • Entrega: 11/09/2026 às 23:59","textChars":69,"textLines":1,"bbox":[490,540,640,58]}
+{"kind":"shape","id":"sh/tkzu9kzy","slide":1,"bbox":[1084,0,196,22]}
+{"kind":"notes","id":"nt/op5ai1","slide":1,"text":""}
+{"kind":"slide","id":"sl/7dfso9","slide":2,"title":"INFORMAÇÕES GERAIS","textShapes":19}
+{"kind":"shape","id":"sh/apwz6lwr","slide":2,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/xsni1gvi","slide":2,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/wreh8vex","slide":2,"text":"INFORMAÇÕES GERAIS","textPreview":"INFORMAÇÕES GERAIS","textChars":18,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/ju503qdo","slide":2,"text":"O contrato do trabalho em uma tela","textPreview":"O contrato do trabalho em uma tela","textChars":34,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/itwjalw3","slide":2,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/5w7i50ve","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/kve1cve9","slide":2,"bbox":[72,172,1030,44]}
+{"kind":"textbox","id":"sh/7yp07adk","slide":2,"text":"Informação","textPreview":"Informação","textChars":10,"textLines":1,"bbox":[84,182,306,24]}
+{"kind":"textbox","id":"sh/6xgje5wz","slide":2,"text":"Definição","textPreview":"Definição","textChars":9,"textLines":1,"bbox":[414,182,676,24]}
+{"kind":"shape","id":"sh/w32lojml","slide":2,"bbox":[72,216,1030,44]}
+{"kind":"textbox","id":"sh/x4b2xo36","slide":2,"text":"Peso","textPreview":"Peso","textChars":4,"textLines":1,"bbox":[84,226,306,24]}
+{"kind":"textbox","id":"sh/a1k3m94f","slide":2,"text":"2,0 pontos na nota da disciplina","textPreview":"2,0 pontos na nota da disciplina","textChars":32,"textLines":1,"bbox":[414,226,676,24]}
+{"kind":"shape","id":"sh/v2tkvel0","slide":2,"bbox":[72,260,1030,44]}
+{"kind":"textbox","id":"sh/k7mls3mh","slide":2,"text":"Grupo","textPreview":"Grupo","textChars":5,"textLines":1,"bbox":[84,270,306,24]}
+{"kind":"textbox","id":"sh/58vml832","slide":2,"text":"até 6 integrantes","textPreview":"até 6 integrantes","textChars":17,"textLines":1,"bbox":[414,270,676,24]}
+{"kind":"shape","id":"sh/i5k3qt4b","slide":2,"bbox":[72,304,1030,44]}
+{"kind":"textbox","id":"sh/j6d4zylw","slide":2,"text":"Linguagem","textPreview":"Linguagem","textChars":9,"textLines":1,"bbox":[84,314,306,24]}
+{"kind":"textbox","id":"sh/sbmlw3mt","slide":2,"text":"Python","textPreview":"Python","textChars":6,"textLines":1,"bbox":[414,314,676,24]}
+{"kind":"shape","id":"sh/twvmp83y","slide":2,"bbox":[72,348,1030,44]}
+{"kind":"textbox","id":"sh/1sb298vi","slide":2,"text":"Execução","textPreview":"Execução","textChars":8,"textLines":1,"bbox":[84,358,306,24]}
+{"kind":"textbox","id":"sh/0rilg3ux","slide":2,"text":"terminal","textPreview":"terminal","textChars":8,"textLines":1,"bbox":[414,358,676,24]}
+{"kind":"shape","id":"sh/fq9k7ydc","slide":2,"bbox":[72,392,1030,44]}
+{"kind":"textbox","id":"sh/ep03etwr","slide":2,"text":"Entrega","textPreview":"Entrega","textChars":7,"textLines":1,"bbox":[84,402,306,24]}
+{"kind":"textbox","id":"sh/pwbmd8ve","slide":2,"text":"AVA, tópico ENTREGAS","textPreview":"AVA, tópico ENTREGAS","textChars":20,"textLines":1,"bbox":[414,402,676,24]}
+{"kind":"shape","id":"sh/ov2lknut","slide":2,"bbox":[72,436,1030,44]}
+{"kind":"textbox","id":"sh/nutkbid8","slide":2,"text":"Repositório","textPreview":"Repositório","textChars":11,"textLines":1,"bbox":[84,446,306,24]}
+{"kind":"textbox","id":"sh/2tk3idcn","slide":2,"text":"GitHub obrigatoriamente público","textPreview":"GitHub obrigatoriamente público","textChars":31,"textLines":1,"bbox":[414,446,676,24]}
+{"kind":"shape","id":"sh/50721ova","slide":2,"bbox":[72,480,1030,44]}
+{"kind":"textbox","id":"sh/4zyl8jep","slide":2,"text":"Data limite","textPreview":"Data limite","textChars":11,"textLines":1,"bbox":[84,490,306,24]}
+{"kind":"textbox","id":"sh/atcrml8b","slide":2,"text":"11/09/2026 às 23:59","textPreview":"11/09/2026 às 23:59","textChars":19,"textLines":1,"bbox":[414,490,676,24]}
+{"kind":"notes","id":"nt/7dfso9","slide":2,"text":""}
+{"kind":"slide","id":"sl/nmyzam","slide":3,"title":"PONTO IMPORTANTE","textShapes":8}
+{"kind":"shape","id":"sh/qtozq5wn","slide":3,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/dwzi1kve","slide":3,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/cvqhsfet","slide":3,"text":"PONTO IMPORTANTE","textPreview":"PONTO IMPORTANTE","textChars":16,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/3qxgvqxw","slide":3,"text":"Podem usar os códigos feitos em aula","textPreview":"Podem usar os códigos feitos em aula","textChars":36,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/2pozmlwr","slide":3,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/psfix0f2","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/4r6hoveh","slide":3,"bbox":[72,186,8,24]}
+{"kind":"textbox","id":"sh/fmdgrqx0","slide":3,"text":"É permitido utilizar, adaptar e evoluir os códigos desenvolvidos em aula.","textPreview":"É permitido utilizar, adaptar e evoluir os códigos desenvolvidos em aula.","textChars":73,"textLines":1,"bbox":[92,178,960,42]}
+{"kind":"shape","id":"sh/u14zilwf","slide":3,"bbox":[72,248,8,24]}
+{"kind":"textbox","id":"sh/8j2hcn29","slide":3,"text":"O grupo deve entender o código usado e integrá-lo corretamente ao sistema.","textPreview":"O grupo deve entender o código usado e integrá-lo corretamente ao sistema.","textChars":74,"textLines":1,"bbox":[92,240,960,42]}
+{"kind":"shape","id":"sh/9kbilsju","slide":3,"bbox":[72,310,8,24]}
+{"kind":"textbox","id":"sh/mhkzadkj","slide":3,"text":"Referências úteis: aula03/Pilha.py, aula04/Fila.py e aula06/LSE.py.","textPreview":"Referências úteis: aula03/Pilha.py, aula04/Fila.py e aula06/LSE.py.","textChars":67,"textLines":1,"bbox":[92,302,960,42]}
+{"kind":"shape","id":"sh/7it0ji14","slide":3,"bbox":[72,372,8,24]}
+{"kind":"textbox","id":"sh/kfih832d","slide":3,"text":"Códigos de POO das aulas anteriores também podem servir como base.","textPreview":"Códigos de POO das aulas anteriores também podem servir como base.","textChars":66,"textLines":1,"bbox":[92,364,960,42]}
+{"kind":"shape","id":"sh/lgbih8jy","slide":3,"bbox":[72,434,8,24]}
+{"kind":"textbox","id":"sh/yd0z6dk7","slide":3,"text":"Copiar sem adaptar ao problema não substitui a implementação do trabalho.","textPreview":"Copiar sem adaptar ao problema não substitui a implementação do trabalho.","textChars":73,"textLines":1,"bbox":[92,426,960,42]}
+{"kind":"notes","id":"nt/nmyzam","slide":3,"text":""}
+{"kind":"slide","id":"sl/1zcdt6","slide":4,"title":"OBJETIVO","textShapes":8}
+{"kind":"shape","id":"sh/w7mdw3yh","slide":4,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/b6dwnyxw","slide":4,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/a54vutgb","slide":4,"text":"OBJETIVO","textPreview":"OBJETIVO","textChars":8,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/94vel8zq","slide":4,"text":"O objetivo é integrar os conteúdos em um sistema real","textPreview":"O objetivo é integrar os conteúdos em um sistema real","textChars":53,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/o32ds3y5","slide":4,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/n2twjyhk","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"textbox","id":"sh/m1kvqtgf","slide":4,"text":"O foco da avaliação será a aplicação prática e correta dos conteúdos estudados.","textPreview":"O foco da avaliação será a aplicação prática e correta dos conteúdos estudados.","textChars":79,"textLines":1,"bbox":[72,160,1030,56]}
+{"kind":"shape","id":"sh/t0fexsfa","slide":4,"bbox":[72,252,8,24]}
+{"kind":"textbox","id":"sh/sz6x4nyp","slide":4,"text":"Desenvolver um Sistema de Estoque e Vendas executado pelo terminal.","textPreview":"Desenvolver um Sistema de Estoque e Vendas executado pelo terminal.","textChars":67,"textLines":1,"bbox":[92,244,960,42]}
+{"kind":"shape","id":"sh/u5872pgr","slide":4,"bbox":[72,322,8,24]}
+{"kind":"textbox","id":"sh/v6hobaxw","slide":4,"text":"Aplicar estruturas de dados no funcionamento do sistema.","textPreview":"Aplicar estruturas de dados no funcionamento do sistema.","textChars":56,"textLines":1,"bbox":[92,314,960,42]}
+{"kind":"shape","id":"sh/g7qp4fyh","slide":4,"bbox":[72,392,8,24]}
+{"kind":"textbox","id":"sh/h8j6dkf2","slide":4,"text":"Usar POO, algoritmos, persistência e tratamento de erros de forma integrada.","textPreview":"Usar POO, algoritmos, persistência e tratamento de erros de forma integrada.","textChars":76,"textLines":1,"bbox":[92,384,960,42]}
+{"kind":"shape","id":"sh/618ny5gf","slide":4,"bbox":[72,462,8,24]}
+{"kind":"textbox","id":"sh/72ho7ah0","slide":4,"text":"Evitar implementações apenas decorativas ou feitas só para cumprir tabela.","textPreview":"Evitar implementações apenas decorativas ou feitas só para cumprir tabela.","textChars":74,"textLines":1,"bbox":[92,454,960,42]}
+{"kind":"notes","id":"nt/1zcdt6","slide":4,"text":""}
+{"kind":"slide","id":"sl/c0f09k","slide":5,"title":"DESCRIÇÃO GERAL","textShapes":11}
+{"kind":"shape","id":"sh/9o7q143q","slide":5,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/mlg769kf","slide":5,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/nmp8zul0","slide":5,"text":"DESCRIÇÃO GERAL","textPreview":"DESCRIÇÃO GERAL","textChars":15,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/wry9cj2h","slide":5,"text":"O sistema deve simular uma pequena loja","textPreview":"O sistema deve simular uma pequena loja","textChars":39,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/xsrq5o32","slide":5,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/apgra9kb","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/bqp83elw","slide":5,"bbox":[72,186,8,24]}
+{"kind":"textbox","id":"sh/kvi9gj2d","slide":5,"text":"Cadastrar e gerenciar clientes","textPreview":"Cadastrar e gerenciar clientes","textChars":30,"textLines":1,"bbox":[92,178,520,42]}
+{"kind":"shape","id":"sh/5grq9o3y","slide":5,"bbox":[644,186,8,24]}
+{"kind":"textbox","id":"sh/5wji9cv2","slide":5,"text":"Cadastrar e gerenciar produtos","textPreview":"Cadastrar e gerenciar produtos","textChars":30,"textLines":1,"bbox":[664,178,520,42]}
+{"kind":"shape","id":"sh/4vah07ex","slide":5,"bbox":[72,248,8,24]}
+{"kind":"textbox","id":"sh/juh072dc","slide":5,"text":"Controlar estoque","textPreview":"Controlar estoque","textChars":17,"textLines":1,"bbox":[92,240,520,42]}
+{"kind":"shape","id":"sh/it8zyxwr","slide":5,"bbox":[644,248,8,24]}
+{"kind":"textbox","id":"sh/t0jidcve","slide":5,"text":"Realizar e registrar vendas","textPreview":"Realizar e registrar vendas","textChars":27,"textLines":1,"bbox":[664,240,520,42]}
+{"kind":"shape","id":"sh/szah4ret","slide":5,"bbox":[72,310,8,24]}
+{"kind":"textbox","id":"sh/ry10bmd8","slide":5,"text":"Desfazer a última operação","textPreview":"Desfazer a última operação","textChars":26,"textLines":1,"bbox":[92,302,520,42]}
+{"kind":"shape","id":"sh/6xsz2hwn","slide":5,"bbox":[644,310,8,24]}
+{"kind":"textbox","id":"sh/94zy1sva","slide":5,"text":"Ordenar produtos e usar Busca Binária","textPreview":"Ordenar produtos e usar Busca Binária","textChars":37,"textLines":1,"bbox":[664,302,520,42]}
+{"kind":"shape","id":"sh/83qhsnep","slide":5,"bbox":[72,372,8,24]}
+{"kind":"textbox","id":"sh/07ahonml","slide":5,"text":"Exibir informações e relatórios","textPreview":"Exibir informações e relatórios","textChars":31,"textLines":1,"bbox":[92,364,520,42]}
+{"kind":"shape","id":"sh/l83ihs3q","slide":5,"bbox":[644,372,8,24]}
+{"kind":"textbox","id":"sh/ylszmd4f","slide":5,"text":"Salvar e carregar dados automaticamente","textPreview":"Salvar e carregar dados automaticamente","textChars":39,"textLines":1,"bbox":[664,364,520,42]}
+{"kind":"notes","id":"nt/c0f09k","slide":5,"text":""}
+{"kind":"slide","id":"sl/hmfvew","slide":6,"title":"01","textShapes":4}
+{"kind":"shape","id":"sh/ne18j2xo","slide":6,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/ofapc7y9","slide":6,"bbox":[0,0,86,720]}
+{"kind":"textbox","id":"sh/9gjqlcfe","slide":6,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[126,104,110,62]}
+{"kind":"textbox","id":"sh/ep876xgr","slide":6,"text":"Modelagem do sistema","textPreview":"Modelagem do sistema","textChars":20,"textLines":1,"bbox":[126,205,820,110]}
+{"kind":"textbox","id":"sh/fqh8f2xc","slide":6,"text":"Primeiro, os objetos principais que representam a loja.","textPreview":"Primeiro, os objetos principais que representam a loja.","textChars":55,"textLines":1,"bbox":[130,340,780,74]}
+{"kind":"shape","id":"sh/0rqp87yx","slide":6,"bbox":[1048,0,232,22]}
+{"kind":"shape","id":"sh/1czqhcfi","slide":6,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/ylc7i1wb","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"notes","id":"nt/hmfvew","slide":6,"text":""}
+{"kind":"slide","id":"sl/g6rbzd","slide":7,"title":"CLASSES MÍNIMAS","textShapes":13}
+{"kind":"shape","id":"sh/rqhonq1o","slide":7,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/crqpwbi9","slide":7,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/dsj6pgzu","slide":7,"text":"CLASSES MÍNIMAS","textPreview":"CLASSES MÍNIMAS","textChars":15,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/ets7yl0f","slide":7,"text":"Cliente e Produto são as entidades básicas","textPreview":"Cliente e Produto são as entidades básicas","textChars":42,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/zu1orqh0","slide":7,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/0vap0vil","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/1wjqt0zq","slide":7,"bbox":[72,180,510,46]}
+{"kind":"textbox","id":"sh/mxs7250b","slide":7,"text":"Cliente","textPreview":"Cliente","textChars":7,"textLines":1,"bbox":[94,190,466,26]}
+{"kind":"shape","id":"sh/ny18vahw","slide":7,"bbox":[72,264,8,24]}
+{"kind":"textbox","id":"sh/bal8ri9w","slide":7,"text":"ID único","textPreview":"ID único","textChars":8,"textLines":1,"bbox":[96,256,470,38]}
+{"kind":"shape","id":"sh/a9c7yx8b","slide":7,"bbox":[72,320,8,24]}
+{"kind":"textbox","id":"sh/xcnqtsr2","slide":7,"text":"Nome obrigatório","textPreview":"Nome obrigatório","textChars":16,"textLines":1,"bbox":[96,312,470,38]}
+{"kind":"shape","id":"sh/cbep0nqh","slide":7,"bbox":[72,376,8,24]}
+{"kind":"textbox","id":"sh/n6l8ni90","slide":7,"text":"Armazenado na Lista Simplesmente Encadeada","textPreview":"Armazenado na Lista Simplesmente Encadeada","textChars":42,"textLines":1,"bbox":[96,368,470,38]}
+{"kind":"shape","id":"sh/25c7udsf","slide":7,"bbox":[698,180,510,46]}
+{"kind":"textbox","id":"sh/p83qpsrq","slide":7,"text":"Produto","textPreview":"Produto","textChars":7,"textLines":1,"bbox":[720,190,466,26]}
+{"kind":"shape","id":"sh/o7upwna5","slide":7,"bbox":[698,264,8,24]}
+{"kind":"textbox","id":"sh/7258z294","slide":7,"text":"ID único","textPreview":"ID único","textChars":8,"textLines":1,"bbox":[722,256,470,38]}
+{"kind":"shape","id":"sh/m1wr6h8j","slide":7,"bbox":[698,320,8,24]}
+{"kind":"textbox","id":"sh/ix0by1sr","slide":7,"text":"Nome obrigatório","textPreview":"Nome obrigatório","textChars":16,"textLines":1,"bbox":[722,312,470,38]}
+{"kind":"shape","id":"sh/jy9s76tc","slide":7,"bbox":[698,376,8,24]}
+{"kind":"textbox","id":"sh/4zit0bax","slide":7,"text":"Quantidade disponível","textPreview":"Quantidade disponível","textChars":21,"textLines":1,"bbox":[722,368,470,38]}
+{"kind":"shape","id":"sh/50ra9gbi","slide":7,"bbox":[698,432,8,24]}
+{"kind":"textbox","id":"sh/610b2lsn","slide":7,"text":"Preço maior que zero","textPreview":"Preço maior que zero","textChars":20,"textLines":1,"bbox":[722,424,470,38]}
+{"kind":"shape","id":"sh/r2tcbqt8","slide":7,"bbox":[698,488,8,24]}
+{"kind":"textbox","id":"sh/s32t4vat","slide":7,"text":"Armazenado na Lista Duplamente Encadeada","textPreview":"Armazenado na Lista Duplamente Encadeada","textChars":40,"textLines":1,"bbox":[722,480,470,38]}
+{"kind":"notes","id":"nt/g6rbzd","slide":7,"text":""}
+{"kind":"slide","id":"sl/planml","slide":8,"title":"CLASSE VENDA","textShapes":7}
+{"kind":"shape","id":"sh/8v6hwva1","slide":8,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/7uxg3q9g","slide":8,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/mtofulsv","slide":8,"text":"CLASSE VENDA","textPreview":"CLASSE VENDA","textChars":12,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/lsfy1gra","slide":8,"text":"Venda conecta cliente, produtos e estoque","textPreview":"Venda conecta cliente, produtos e estoque","textChars":41,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/krmxsvap","slide":8,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/zqdgzq94","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/yp4fqlsj","slide":8,"bbox":[72,186,8,24]}
+{"kind":"textbox","id":"sh/xovyxgre","slide":8,"text":"Cada venda possui ID, cliente, produtos vendidos, quantidades e valor total.","textPreview":"Cada venda possui ID, cliente, produtos vendidos, quantidades e valor total.","textChars":76,"textLines":1,"bbox":[92,178,960,42]}
+{"kind":"shape","id":"sh/cnmxobat","slide":8,"bbox":[72,262,8,24]}
+{"kind":"textbox","id":"sh/edofit4n","slide":8,"text":"Uma venda pode conter um ou mais produtos.","textPreview":"Uma venda pode conter um ou mais produtos.","textChars":42,"textLines":1,"bbox":[92,254,960,42]}
+{"kind":"shape","id":"sh/fyxgre58","slide":8,"bbox":[72,338,8,24]}
+{"kind":"textbox","id":"sh/gz6xkjmt","slide":8,"text":"O valor total deve ser calculado automaticamente.","textPreview":"O valor total deve ser calculado automaticamente.","textChars":49,"textLines":1,"bbox":[92,330,960,42]}
+{"kind":"shape","id":"sh/10fyto3e","slide":8,"bbox":[72,414,8,24]}
+{"kind":"textbox","id":"sh/694fe94r","slide":8,"text":"O grupo pode criar atributos ou classes extras se isso melhorar a organização.","textPreview":"O grupo pode criar atributos ou classes extras se isso melhorar a organização.","textChars":78,"textLines":1,"bbox":[92,406,960,42]}
+{"kind":"notes","id":"nt/planml","slide":8,"text":""}
+{"kind":"slide","id":"sl/avb21z","slide":9,"title":"ESTRUTURAS DE DADOS","textShapes":13}
+{"kind":"shape","id":"sh/mhs3mdg3","slide":9,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/943mhsze","slide":9,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/83ulony9","slide":9,"text":"ESTRUTURAS DE DADOS","textPreview":"ESTRUTURAS DE DADOS","textChars":19,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/v6l4j2hk","slide":9,"text":"Cada estrutura tem uma responsabilidade obrigatória","textPreview":"Cada estrutura tem uma responsabilidade obrigatória","textChars":51,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/a5c3qxgz","slide":9,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/x83mlszq","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/w7ulsny5","slide":9,"bbox":[72,172,1030,44]}
+{"kind":"textbox","id":"sh/ja54n2hw","slide":9,"text":"Estrutura","textPreview":"Estrutura","textChars":9,"textLines":1,"bbox":[84,182,316,24]}
+{"kind":"textbox","id":"sh/i9c3uxgb","slide":9,"text":"Aplicação obrigatória","textPreview":"Aplicação obrigatória","textChars":21,"textLines":1,"bbox":[424,182,666,24]}
+{"kind":"shape","id":"sh/or2dcb65","slide":9,"bbox":[72,216,1030,44]}
+{"kind":"textbox","id":"sh/pcbe5g7q","slide":9,"text":"LSE","textPreview":"LSE","textChars":3,"textLines":1,"bbox":[84,226,316,24]}
+{"kind":"textbox","id":"sh/2pkva1oz","slide":9,"text":"armazenamento dos clientes","textPreview":"armazenamento dos clientes","textChars":26,"textLines":1,"bbox":[424,226,666,24]}
+{"kind":"shape","id":"sh/nqtw36pk","slide":9,"bbox":[72,260,1030,44]}
+{"kind":"textbox","id":"sh/cf2dgb6h","slide":9,"text":"LDE","textPreview":"LDE","textChars":3,"textLines":1,"bbox":[84,270,316,24]}
+{"kind":"textbox","id":"sh/xgve9g7m","slide":9,"text":"armazenamento dos produtos","textPreview":"armazenamento dos produtos","textChars":26,"textLines":1,"bbox":[424,270,666,24]}
+{"kind":"shape","id":"sh/adkvelob","slide":9,"bbox":[72,304,1030,44]}
+{"kind":"textbox","id":"sh/betw76pw","slide":9,"text":"Fila","textPreview":"Fila","textChars":4,"textLines":1,"bbox":[84,314,316,24]}
+{"kind":"textbox","id":"sh/kjmxkv6d","slide":9,"text":"vendas realizadas na ordem em que aconteceram","textPreview":"vendas realizadas na ordem em que aconteceram","textChars":45,"textLines":1,"bbox":[424,314,666,24]}
+{"kind":"shape","id":"sh/lkved07y","slide":9,"bbox":[72,348,1030,44]}
+{"kind":"textbox","id":"sh/t0rexgf2","slide":9,"text":"Pilha","textPreview":"Pilha","textChars":5,"textLines":1,"bbox":[84,358,316,24]}
+{"kind":"textbox","id":"sh/8zid4vyh","slide":9,"text":"histórico usado para desfazer operações","textPreview":"histórico usado para desfazer operações","textChars":39,"textLines":1,"bbox":[424,358,666,24]}
+{"kind":"notes","id":"nt/avb21z","slide":9,"text":""}
+{"kind":"slide","id":"sl/uzwaab","slide":10,"title":"REGRA IMPORTANTE","textShapes":8}
+{"kind":"shape","id":"sh/m1g3ypsj","slide":10,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/94r2t4bu","slide":10,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/o3il0za9","slide":10,"text":"REGRA IMPORTANTE","textPreview":"REGRA IMPORTANTE","textChars":16,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/zepknuts","slide":10,"text":"As estruturas precisam participar do funcionamento","textPreview":"As estruturas precisam participar do funcionamento","textChars":50,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/edgjups7","slide":10,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/1072p4by","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/0zylwzad","slide":10,"bbox":[72,186,8,24]}
+{"kind":"textbox","id":"sh/jutkze9w","slide":10,"text":"Não vale criar uma estrutura apenas para aparecer no código.","textPreview":"Não vale criar uma estrutura apenas para aparecer no código.","textChars":60,"textLines":1,"bbox":[92,178,960,42]}
+{"kind":"shape","id":"sh/y9k369sb","slide":10,"bbox":[72,248,8,24]}
+{"kind":"textbox","id":"sh/kn2tgn65","slide":10,"text":"A LSE deve ser usada nas operações reais de clientes.","textPreview":"A LSE deve ser usada nas operações reais de clientes.","textChars":53,"textLines":1,"bbox":[92,240,960,42]}
+{"kind":"shape","id":"sh/lova9sna","slide":10,"bbox":[72,310,8,24]}
+{"kind":"textbox","id":"sh/ylkbexoz","slide":10,"text":"A LDE deve ser usada nas operações reais de produtos.","textPreview":"A LDE deve ser usada nas operações reais de produtos.","textChars":53,"textLines":1,"bbox":[92,302,960,42]}
+{"kind":"shape","id":"sh/zmts725k","slide":10,"bbox":[72,372,8,24]}
+{"kind":"textbox","id":"sh/cj2tcn6t","slide":10,"text":"Fila e Pilha devem afetar diretamente vendas e desfazer.","textPreview":"Fila e Pilha devem afetar diretamente vendas e desfazer.","textChars":56,"textLines":1,"bbox":[92,364,960,42]}
+{"kind":"shape","id":"sh/xkba5sne","slide":10,"bbox":[72,434,8,24]}
+{"kind":"textbox","id":"sh/ahkbadon","slide":10,"text":"Listas nativas podem apoiar conversões, mas não substituir as estruturas obrigatórias.","textPreview":"Listas nativas podem apoiar conversões, mas não substituir as estruturas obrigatórias.","textChars":86,"textLines":1,"bbox":[92,426,960,42]}
+{"kind":"notes","id":"nt/uzwaab","slide":10,"text":""}
+{"kind":"slide","id":"sl/7zi4wt","slide":11,"title":"02","textShapes":4}
+{"kind":"shape","id":"sh/7u1kbe5s","slide":11,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/8va1kjmd","slide":11,"bbox":[0,0,86,720]}
+{"kind":"textbox","id":"sh/tgj2doni","slide":11,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[126,104,110,62]}
+{"kind":"textbox","id":"sh/yp8je94v","slide":11,"text":"Menu e funcionalidades","textPreview":"Menu e funcionalidades","textChars":22,"textLines":1,"bbox":[126,205,820,110]}
+{"kind":"textbox","id":"sh/jqhk7e5g","slide":11,"text":"O menu é o mapa do sistema e deve ser claro para o usuário.","textPreview":"O menu é o mapa do sistema e deve ser claro para o usuário.","textChars":59,"textLines":1,"bbox":[130,340,780,74]}
+{"kind":"shape","id":"sh/krq1gzm1","slide":11,"bbox":[1048,0,232,22]}
+{"kind":"shape","id":"sh/lsz294nm","slide":11,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/ilc3qt4f","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"notes","id":"nt/7zi4wt","slide":11,"text":""}
+{"kind":"slide","id":"sl/gj5cfp","slide":12,"title":"MENU NUMÉRICO","textShapes":4}
+{"kind":"shape","id":"sh/z2t8r2dw","slide":12,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/k329k7eh","slide":12,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/l4bqtcvm","slide":12,"text":"MENU NUMÉRICO","textPreview":"MENU NUMÉRICO","textChars":13,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/65krmhw7","slide":12,"text":"Exemplo de menu: clientes e produtos","textPreview":"Exemplo de menu: clientes e produtos","textChars":36,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/76d8vmds","slide":12,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/87m9ored","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/t8vqxcvy","slide":12,"bbox":[92,170,1000,438]}
+{"kind":"textbox","id":"sh/2907adw3","slide":12,"text":"==============================\n SISTEMA DE ESTOQUE E VENDAS\n==============================\n1  - Cadastrar cliente\n2  - Listar clientes\n3  - Buscar cliente\n4  - Remover cliente\n\n5  - Cadastrar produto\n6  - Listar produtos\n7  - Buscar produto\n8  - Atualizar estoque\n9  - Remover produto\n10 - Listar produtos em ordem inversa\n11 - Listar produtos ordenados\n12 - Buscar produto por ID usando Busca Binária","textPreview":"============================== |  SISTEMA DE ESTOQUE E VENDAS | ============================== | 1  - Cadastrar cliente | 2  - Listar cli...","textChars":401,"textLines":16,"bbox":[122,196,940,392]}
+{"kind":"notes","id":"nt/gj5cfp","slide":12,"text":""}
+{"kind":"slide","id":"sl/0pulvv","slide":13,"title":"MENU NUMÉRICO","textShapes":5}
+{"kind":"shape","id":"sh/5o3ahwre","slide":13,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/i1crm1s3","slide":13,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/j2l8f69o","slide":13,"text":"MENU NUMÉRICO","textPreview":"MENU NUMÉRICO","textChars":13,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/wzu9krax","slide":13,"text":"Exemplo de menu: vendas e relatórios","textPreview":"Exemplo de menu: vendas e relatórios","textChars":36,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/h03qdwri","slide":13,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/uxsrihsr","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"textbox","id":"sh/vy18bmtc","slide":13,"text":"As opções precisam estar acessíveis pelo terminal e validar entradas inválidas.","textPreview":"As opções precisam estar acessíveis pelo terminal e validar entradas inválidas.","textChars":79,"textLines":1,"bbox":[72,154,1040,40]}
+{"kind":"shape","id":"sh/gve9wva1","slide":13,"bbox":[92,208,1000,360]}
+{"kind":"textbox","id":"sh/1wnapgrm","slide":13,"text":"13 - Realizar venda\n14 - Visualizar fila de vendas\n15 - Visualizar primeira venda da fila\n\n16 - Exibir valor total do estoque\n17 - Exibir valor total das vendas\n18 - Exibir clientes e valores totais gastos\n19 - Exibir cliente que mais gastou\n20 - Exibir produto mais vendido","textPreview":"13 - Realizar venda | 14 - Visualizar fila de vendas | 15 - Visualizar primeira venda da fila |  | 16 - Exibir valor total do estoque | 1...","textChars":274,"textLines":9,"bbox":[122,234,940,314]}
+{"kind":"notes","id":"nt/0pulvv","slide":13,"text":""}
+{"kind":"slide","id":"sl/sh1kvb","slide":14,"title":"MENU NUMÉRICO","textShapes":5}
+{"kind":"shape","id":"sh/ze5gvexs","slide":14,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/kfeh4jed","slide":14,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/lgnyxofy","slide":14,"text":"MENU NUMÉRICO","textPreview":"MENU NUMÉRICO","textChars":13,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/apczy9wb","slide":14,"text":"Exemplo de menu: sistema e saída","textPreview":"Exemplo de menu: sistema e saída","textChars":32,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/bq5grexw","slide":14,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/creh0jeh","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"textbox","id":"sh/xsnytofm","slide":14,"text":"Não deve existir opção manual para salvar ou carregar dados.","textPreview":"Não deve existir opção manual para salvar ou carregar dados.","textChars":60,"textLines":1,"bbox":[72,154,1040,40]}
+{"kind":"shape","id":"sh/ulgzatwf","slide":14,"bbox":[92,208,1000,330]}
+{"kind":"textbox","id":"sh/vmp03yx0","slide":14,"text":"21 - Desfazer última operação\n0  - Sair\n\nEscolha uma opção: _\n\nRegra:\nse a opção for inválida, mostre uma mensagem,\nnão encerre o programa e volte ao menu principal.","textPreview":"21 - Desfazer última operação | 0  - Sair |  | Escolha uma opção: _ |  | Regra: | se a opção for inválida, mostre uma mensagem, | não enc...","textChars":165,"textLines":8,"bbox":[122,234,940,284]}
+{"kind":"notes","id":"nt/sh1kvb","slide":14,"text":""}
+{"kind":"slide","id":"sl/vx7jeq","slide":15,"title":"GERENCIAMENTO DE CLIENTES","textShapes":9}
+{"kind":"shape","id":"sh/1snatkre","slide":15,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/epwbipsn","slide":15,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/fq5sru98","slide":15,"text":"GERENCIAMENTO DE CLIENTES","textPreview":"GERENCIAMENTO DE CLIENTES","textChars":25,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/s3utgfah","slide":15,"text":"Clientes ficam na Lista Simplesmente Encadeada","textPreview":"Clientes ficam na Lista Simplesmente Encadeada","textChars":46,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/t4napkr2","slide":15,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/61cbe5sr","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/r2lsna9w","slide":15,"bbox":[72,186,8,24]}
+{"kind":"textbox","id":"sh/czytsja1","slide":15,"text":"Cadastrar cliente","textPreview":"Cadastrar cliente","textChars":17,"textLines":1,"bbox":[92,178,520,42]}
+{"kind":"shape","id":"sh/dk7u14r6","slide":15,"bbox":[644,186,8,24]}
+{"kind":"textbox","id":"sh/p0vud0zi","slide":15,"text":"Listar clientes","textPreview":"Listar clientes","textChars":15,"textLines":1,"bbox":[664,178,520,42]}
+{"kind":"shape","id":"sh/4zmdkvyx","slide":15,"bbox":[72,256,8,24]}
+{"kind":"textbox","id":"sh/3ydcbqhc","slide":15,"text":"Buscar cliente","textPreview":"Buscar cliente","textChars":14,"textLines":1,"bbox":[92,248,520,42]}
+{"kind":"shape","id":"sh/2x4vilgr","slide":15,"bbox":[644,256,8,24]}
+{"kind":"textbox","id":"sh/hwvu9gz6","slide":15,"text":"Remover cliente","textPreview":"Remover cliente","textChars":15,"textLines":1,"bbox":[664,248,520,42]}
+{"kind":"shape","id":"sh/gvmdgvyl","slide":15,"bbox":[72,326,8,24]}
+{"kind":"textbox","id":"sh/futc7qhg","slide":15,"text":"Garantir ID único","textPreview":"Garantir ID único","textChars":17,"textLines":1,"bbox":[92,318,520,42]}
+{"kind":"shape","id":"sh/utkvelgv","slide":15,"bbox":[644,326,8,24]}
+{"kind":"textbox","id":"sh/1sfelkzq","slide":15,"text":"Bloquear nomes vazios","textPreview":"Bloquear nomes vazios","textChars":21,"textLines":1,"bbox":[664,318,520,42]}
+{"kind":"notes","id":"nt/vx7jeq","slide":15,"text":""}
+{"kind":"slide","id":"sl/lwql23","slide":16,"title":"GERENCIAMENTO DE PRODUTOS","textShapes":9}
+{"kind":"shape","id":"sh/7m5gnexw","slide":16,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/snyxgze1","slide":16,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/to7yp4fm","slide":16,"text":"GERENCIAMENTO DE PRODUTOS","textPreview":"GERENCIAMENTO DE PRODUTOS","textChars":25,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/yxwfapwz","slide":16,"text":"Produtos ficam na Lista Duplamente Encadeada","textPreview":"Produtos ficam na Lista Duplamente Encadeada","textChars":44,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/jy5wjuxk","slide":16,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/kzexcze5","slide":16,"text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/5knel4fq","slide":16,"bbox":[72,186,8,24]}
+{"kind":"textbox","id":"sh/atcf6pw3","slide":16,"text":"Cadastrar, listar, buscar e remover produto","textPreview":"Cadastrar, listar, buscar e remover produto","textChars":43,"textLines":1,"bbox":[92,178,520,42]}
+{"kind":"shape","id":"sh/bulwfuxo","slide":16,"bbox":[644,186,8,24]}
+{"kind":"textbox","id":"sh/bylw3udk","slide":16,"text":"Atualizar quantidade em estoque","textPreview":"Atualizar quantidade em estoque","textChars":31,"textLines":1,"bbox":[664,178,520,42]}
+{"kind":"shape","id":"sh/axcfupcf","slide":16,"bbox":[72,256,8,24]}
+{"kind":"textbox","id":"sh/x03e54vq","slide":16,"text":"Visualizar do início para o fim","textPreview":"Visualizar do início para o fim","textChars":31,"textLines":1,"bbox":[92,248,520,42]}
+{"kind":"shape","id":"sh/wzuxwzu5","slide":16,"bbox":[644,256,8,24]}
+{"kind":"textbox","id":"sh/j2lw7edw","slide":16,"text":"Visualizar do fim para o início","textPreview":"Visualizar do fim para o início","textChars":31,"textLines":1,"bbox":[664,248,520,42]}
+{"kind":"shape","id":"sh/y1cfy9cb","slide":16,"bbox":[72,326,8,24]}
+{"kind":"textbox","id":"sh/l4ne9ov2","slide":16,"text":"Garantir preço maior que zero","textPreview":"Garantir preço maior que zero","textChars":29,"textLines":1,"bbox":[92,318,520,42]}
+{"kind":"shape","id":"sh/k3ux0juh","slide":16,"bbox":[644,326,8,24]}
+{"kind":"textbox","id":"sh/f61wvads","slide":16,"text":"Impedir estoque negativo","textPreview":"Impedir estoque negativo","textChars":24,"textLines":1,"bbox":[664,318,520,42]}
+{"kind":"notes","id":"nt/lwql23","slide":16,"text":""}
+{"kind":"slide","id":"sl/1cy6o5","slide":17,"title":"REALIZAÇÃO DE VENDAS","textShapes":8}
+{"kind":"shape","id":"sh/rqt8v2xs","slide":17,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/sr29onyd","slide":17,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/dsbqxsfy","slide":17,"text":"REALIZAÇÃO DE VENDAS","textPreview":"REALIZAÇÃO DE VENDAS","textChars":20,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/etkrqxgj","slide":17,"text":"Uma venda só acontece se tudo estiver válido","textPreview":"Uma venda só acontece se tudo estiver válido","textChars":44,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/futsz2x4","slide":17,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/0v29s7y9","slide":17,"text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/1wva1cfu","slide":17,"bbox":[72,186,8,24]}
+{"kind":"textbox","id":"sh/2h4ruhgf","slide":17,"text":"Cliente precisa estar cadastrado.","textPreview":"Cliente precisa estar cadastrado.","textChars":33,"textLines":1,"bbox":[92,178,960,42]}
+{"kind":"shape","id":"sh/nids3mx0","slide":17,"bbox":[72,252,8,24]}
+{"kind":"textbox","id":"sh/7m5g7u1c","slide":17,"text":"Venda deve ter um ou mais produtos.","textPreview":"Venda deve ter um ou mais produtos.","textChars":35,"textLines":1,"bbox":[92,244,960,42]}
+{"kind":"shape","id":"sh/6lcfepkr","slide":17,"bbox":[72,318,8,24]}
+{"kind":"textbox","id":"sh/tony9kji","slide":17,"text":"Todos os produtos informados precisam existir.","textPreview":"Todos os produtos informados precisam existir.","textChars":46,"textLines":1,"bbox":[92,310,960,42]}
+{"kind":"shape","id":"sh/snexgf2x","slide":17,"bbox":[72,384,8,24]}
+{"kind":"textbox","id":"sh/jilw3a1g","slide":17,"text":"Cada quantidade deve ser inteira e maior que zero.","textPreview":"Cada quantidade deve ser inteira e maior que zero.","textChars":50,"textLines":1,"bbox":[92,376,960,42]}
+{"kind":"shape","id":"sh/ihcfa5kv","slide":17,"bbox":[72,450,8,24]}
+{"kind":"textbox","id":"sh/5k3y5kjm","slide":17,"text":"Deve haver estoque suficiente para todos os itens.","textPreview":"Deve haver estoque suficiente para todos os itens.","textChars":50,"textLines":1,"bbox":[92,442,960,42]}
+{"kind":"notes","id":"nt/1cy6o5","slide":17,"text":""}
+{"kind":"slide","id":"sl/06u949","slide":18,"title":"PASSO A PASSO","textShapes":17}
+{"kind":"shape","id":"sh/n6xkj2ts","slide":18,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/o761s7ux","slide":18,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/p8f2lcbi","slide":18,"text":"PASSO A PASSO","textPreview":"PASSO A PASSO","textChars":13,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/eh4jmdcv","slide":18,"text":"Fluxo de venda válida","textPreview":"Fluxo de venda válida","textChars":21,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/fidkfitg","slide":18,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/g3m1onu1","slide":18,"text":"18","textPreview":"18","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/14f2hsbm","slide":18,"bbox":[94,232,185,116]}
+{"kind":"textbox","id":"sh/6d4jidcz","slide":18,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[110,244,32,30]}
+{"kind":"textbox","id":"sh/red0bitk","slide":18,"text":"Validar cliente","textPreview":"Validar cliente","textChars":15,"textLines":1,"bbox":[112,282,149,48]}
+{"kind":"textbox","id":"sh/n21kz2p4","slide":18,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[293,270,32,44]}
+{"kind":"shape","id":"sh/m1s3qx8j","slide":18,"bbox":[314,232,185,116]}
+{"kind":"textbox","id":"sh/94321c7u","slide":18,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[330,244,32,30]}
+{"kind":"textbox","id":"sh/83uls7qp","slide":18,"text":"Validar produtos","textPreview":"Validar produtos","textChars":16,"textLines":1,"bbox":[332,282,149,48]}
+{"kind":"textbox","id":"sh/v6lk3mp0","slide":18,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[513,270,32,44]}
+{"kind":"shape","id":"sh/a5c3uh8f","slide":18,"bbox":[534,232,185,116]}
+{"kind":"textbox","id":"sh/x83m5c76","slide":18,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[550,244,32,30]}
+{"kind":"textbox","id":"sh/w7ulwrql","slide":18,"text":"Calcular total","textPreview":"Calcular total","textChars":14,"textLines":1,"bbox":[552,282,149,48]}
+{"kind":"textbox","id":"sh/bahkripw","slide":18,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[733,270,32,44]}
+{"kind":"shape","id":"sh/q98jid8b","slide":18,"bbox":[754,232,185,116]}
+{"kind":"textbox","id":"sh/u5gnqlsz","slide":18,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[770,244,32,30]}
+{"kind":"textbox","id":"sh/fqpozq9k","slide":18,"text":"Baixar estoque","textPreview":"Baixar estoque","textChars":14,"textLines":1,"bbox":[772,282,149,48]}
+{"kind":"textbox","id":"sh/gry5svap","slide":18,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[953,270,32,44]}
+{"kind":"shape","id":"sh/hs7610ra","slide":18,"bbox":[974,232,185,116]}
+{"kind":"textbox","id":"sh/61wnmlsn","slide":18,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[990,244,32,30]}
+{"kind":"textbox","id":"sh/72povq98","slide":18,"text":"Salvar venda","textPreview":"Salvar venda","textChars":12,"textLines":1,"bbox":[992,282,149,48]}
+{"kind":"notes","id":"nt/06u949","slide":18,"text":""}
+{"kind":"slide","id":"sl/f775c7","slide":19,"title":"PASSO A PASSO","textShapes":17}
+{"kind":"shape","id":"sh/xw3id0vy","slide":19,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/a9szilcn","slide":19,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/va1gbqd8","slide":19,"text":"PASSO A PASSO","textPreview":"PASSO A PASSO","textChars":13,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/87ahgbuh","slide":19,"text":"Venda inválida não altera dados","textPreview":"Venda inválida não altera dados","textChars":31,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/98jy9gv2","slide":19,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/m5szelcb","slide":19,"text":"19","textPreview":"19","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/n61g76dw","slide":19,"bbox":[94,232,185,116]}
+{"kind":"textbox","id":"sh/03qhcbul","slide":19,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[110,244,32,30]}
+{"kind":"textbox","id":"sh/l4jy5gvq","slide":19,"text":"Encontrar erro","textPreview":"Encontrar erro","textChars":14,"textLines":1,"bbox":[112,282,149,48]}
+{"kind":"textbox","id":"sh/d4fedk3m","slide":19,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[293,270,32,44]}
+{"kind":"shape","id":"sh/s36dkzmh","slide":19,"bbox":[314,232,185,116]}
+{"kind":"textbox","id":"sh/r2xcbulw","slide":19,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[330,244,32,30]}
+{"kind":"textbox","id":"sh/q1ovip4b","slide":19,"text":"Mostrar mensagem","textPreview":"Mostrar mensagem","textChars":16,"textLines":1,"bbox":[332,282,149,48]}
+{"kind":"textbox","id":"sh/50vu9k3q","slide":19,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[513,270,32,44]}
+{"kind":"shape","id":"sh/4zmdgfm5","slide":19,"bbox":[534,232,185,116]}
+{"kind":"textbox","id":"sh/3edc7alk","slide":19,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[550,244,32,30]}
+{"kind":"textbox","id":"sh/id4ve54z","slide":19,"text":"Cancelar ação","textPreview":"Cancelar ação","textChars":13,"textLines":1,"bbox":[552,282,149,48]}
+{"kind":"textbox","id":"sh/hcvu503u","slide":19,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[733,270,32,44]}
+{"kind":"shape","id":"sh/gbmdcfm9","slide":19,"bbox":[754,232,185,116]}
+{"kind":"textbox","id":"sh/8fqdsfu5","slide":19,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[770,244,32,30]}
+{"kind":"textbox","id":"sh/9gze1kba","slide":19,"text":"Preservar dados","textPreview":"Preservar dados","textChars":15,"textLines":1,"bbox":[772,282,149,48]}
+{"kind":"textbox","id":"sh/mtovq5cz","slide":19,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[953,270,32,44]}
+{"kind":"shape","id":"sh/7exwzatk","slide":19,"bbox":[974,232,185,116]}
+{"kind":"textbox","id":"sh/kr6dovut","slide":19,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[990,244,32,30]}
+{"kind":"textbox","id":"sh/lsfux0be","slide":19,"text":"Voltar ao menu","textPreview":"Voltar ao menu","textChars":14,"textLines":1,"bbox":[992,282,149,48]}
+{"kind":"notes","id":"nt/f775c7","slide":19,"text":""}
+{"kind":"slide","id":"sl/cos4qr","slide":20,"title":"FILA DE VENDAS","textShapes":7}
+{"kind":"shape","id":"sh/0bid0zyd","slide":20,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/za9c7uhs","slide":20,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/y90vypg7","slide":20,"text":"FILA DE VENDAS","textPreview":"FILA DE VENDAS","textChars":14,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/d8ru5kz2","slide":20,"text":"A Fila preserva a ordem das vendas realizadas","textPreview":"A Fila preserva a ordem das vendas realizadas","textChars":45,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/c7idwfih","slide":20,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/bm9c3ahw","slide":20,"text":"20","textPreview":"20","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/ql0vu50b","slide":20,"bbox":[72,186,8,24]}
+{"kind":"textbox","id":"sh/h4veh4z6","slide":20,"text":"A primeira venda realizada permanece como a primeira da estrutura.","textPreview":"A primeira venda realizada permanece como a primeira da estrutura.","textChars":66,"textLines":1,"bbox":[92,178,960,42]}
+{"kind":"shape","id":"sh/w32d8jyl","slide":20,"bbox":[72,262,8,24]}
+{"kind":"textbox","id":"sh/ed87m5kr","slide":20,"text":"A visualização deve respeitar o princípio FIFO.","textPreview":"A visualização deve respeitar o princípio FIFO.","textChars":47,"textLines":1,"bbox":[92,254,960,42]}
+{"kind":"shape","id":"sh/feh8fq1c","slide":20,"bbox":[72,338,8,24]}
+{"kind":"textbox","id":"sh/gfqpov2x","slide":20,"text":"Ao reiniciar o programa, as vendas devem voltar para a Fila na ordem correta.","textPreview":"Ao reiniciar o programa, as vendas devem voltar para a Fila na ordem correta.","textChars":77,"textLines":1,"bbox":[92,330,960,42]}
+{"kind":"shape","id":"sh/1gzqh0ji","slide":20,"bbox":[72,414,8,24]}
+{"kind":"textbox","id":"sh/69o7ilkv","slide":20,"text":"O sistema deve tratar tentativa de acessar Fila vazia.","textPreview":"O sistema deve tratar tentativa de acessar Fila vazia.","textChars":54,"textLines":1,"bbox":[92,406,960,42]}
+{"kind":"notes","id":"nt/cos4qr","slide":20,"text":""}
+{"kind":"slide","id":"sl/26dhko","slide":21,"title":"PILHA E DESFAZER","textShapes":8}
+{"kind":"shape","id":"sh/kbq5kzqp","slide":21,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/jahobup4","slide":21,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/y98nip8j","slide":21,"text":"PILHA E DESFAZER","textPreview":"PILHA E DESFAZER","textChars":16,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/t0j6h476","slide":21,"text":"A Pilha permite desfazer a última operação","textPreview":"A Pilha permite desfazer a última operação","textChars":42,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/8za5ozq1","slide":21,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/7ehofupg","slide":21,"text":"21","textPreview":"21","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/6d8nmp8v","slide":21,"bbox":[72,186,8,24]}
+{"kind":"textbox","id":"sh/94fm5k72","slide":21,"text":"A funcionalidade segue o princípio LIFO.","textPreview":"A funcionalidade segue o princípio LIFO.","textChars":40,"textLines":1,"bbox":[92,178,960,42]}
+{"kind":"shape","id":"sh/oj65cfqh","slide":21,"bbox":[72,248,8,24]}
+{"kind":"textbox","id":"sh/qxkju1on","slide":21,"text":"A Pilha deve guardar dados suficientes para restaurar o estado anterior.","textPreview":"A Pilha deve guardar dados suficientes para restaurar o estado anterior.","textChars":72,"textLines":1,"bbox":[92,240,960,42]}
+{"kind":"shape","id":"sh/ryt0n658","slide":21,"bbox":[72,310,8,24]}
+{"kind":"textbox","id":"sh/cz21wb6t","slide":21,"text":"Desfazer uma venda devolve todos os produtos ao estoque.","textPreview":"Desfazer uma venda devolve todos os produtos ao estoque.","textChars":56,"textLines":1,"bbox":[92,302,960,42]}
+{"kind":"shape","id":"sh/d0bipgne","slide":21,"bbox":[72,372,8,24]}
+{"kind":"textbox","id":"sh/e1kjyloz","slide":21,"text":"A venda desfeita deixa de fazer parte do histórico correspondente.","textPreview":"A venda desfeita deixa de fazer parte do histórico correspondente.","textChars":66,"textLines":1,"bbox":[92,364,960,42]}
+{"kind":"shape","id":"sh/z2t0rq5k","slide":21,"bbox":[72,434,8,24]}
+{"kind":"textbox","id":"sh/03210b65","slide":21,"text":"Os arquivos devem ser atualizados após o desfazer.","textPreview":"Os arquivos devem ser atualizados após o desfazer.","textChars":50,"textLines":1,"bbox":[92,426,960,42]}
+{"kind":"notes","id":"nt/26dhko","slide":21,"text":""}
+{"kind":"slide","id":"sl/xuar02","slide":22,"title":"03","textShapes":4}
+{"kind":"shape","id":"sh/obi9wfyh","slide":22,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/na983uxw","slide":22,"bbox":[0,0,86,720]}
+{"kind":"textbox","id":"sh/m90rupgb","slide":22,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[126,104,110,62]}
+{"kind":"textbox","id":"sh/xgbq94fy","slide":22,"text":"Algoritmos obrigatórios","textPreview":"Algoritmos obrigatórios","textChars":23,"textLines":1,"bbox":[126,205,820,110]}
+{"kind":"textbox","id":"sh/wfi90zyd","slide":22,"text":"Ordenação manual e Busca Binária precisam aparecer no uso real do sistema.","textPreview":"Ordenação manual e Busca Binária precisam aparecer no uso real do sistema.","textChars":74,"textLines":1,"bbox":[130,340,780,74]}
+{"kind":"shape","id":"sh/be987ux8","slide":22,"bbox":[1048,0,232,22]}
+{"kind":"shape","id":"sh/ad0rypgn","slide":22,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/l4bad4fa","slide":22,"text":"22","textPreview":"22","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"notes","id":"nt/xuar02","slide":22,"text":""}
+{"kind":"slide","id":"sl/djywc8","slide":23,"title":"ORDENAÇÃO","textShapes":9}
+{"kind":"shape","id":"sh/tcvu5wbq","slide":23,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/694va1sz","slide":23,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/7adc36tk","slide":23,"text":"ORDENAÇÃO","textPreview":"ORDENAÇÃO","textChars":9,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/k7mt8rat","slide":23,"text":"Cada grupo escolhe um algoritmo de ordenação","textPreview":"Cada grupo escolhe um algoritmo de ordenação","textChars":44,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/58vu1wbe","slide":23,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/i5kb6hcn","slide":23,"text":"23","textPreview":"23","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/j6tczmt8","slide":23,"bbox":[72,186,8,24]}
+{"kind":"textbox","id":"sh/436dkvad","slide":23,"text":"Bubble Sort","textPreview":"Bubble Sort","textChars":11,"textLines":1,"bbox":[92,178,520,42]}
+{"kind":"shape","id":"sh/p4fud0bi","slide":23,"bbox":[644,186,8,24]}
+{"kind":"textbox","id":"sh/hobi5sn6","slide":23,"text":"Selection Sort","textPreview":"Selection Sort","textChars":14,"textLines":1,"bbox":[664,178,520,42]}
+{"kind":"shape","id":"sh/gn21c76l","slide":23,"bbox":[72,256,8,24]}
+{"kind":"textbox","id":"sh/fm9032p0","slide":23,"text":"Insertion Sort","textPreview":"Insertion Sort","textChars":14,"textLines":1,"bbox":[92,248,520,42]}
+{"kind":"shape","id":"sh/ul0jaxov","slide":23,"bbox":[644,256,8,24]}
+{"kind":"textbox","id":"sh/tkri1s7a","slide":23,"text":"Merge Sort","textPreview":"Merge Sort","textChars":10,"textLines":1,"bbox":[664,248,520,42]}
+{"kind":"shape","id":"sh/szi18n6p","slide":23,"bbox":[72,326,8,24]}
+{"kind":"textbox","id":"sh/7y90zip4","slide":23,"text":"Apenas um algoritmo precisa ser escolhido e implementado manualmente.","textPreview":"Apenas um algoritmo precisa ser escolhido e implementado manualmente.","textChars":69,"textLines":1,"bbox":[92,318,520,42]}
+{"kind":"shape","id":"sh/6x0j6doj","slide":23,"bbox":[644,326,8,24]}
+{"kind":"textbox","id":"sh/dgv2dwne","slide":23,"text":"Não é permitido usar sort(), sorted() ou biblioteca equivalente.","textPreview":"Não é permitido usar sort(), sorted() ou biblioteca equivalente.","textChars":64,"textLines":1,"bbox":[664,318,520,42]}
+{"kind":"notes","id":"nt/djywc8","slide":23,"text":""}
+{"kind":"slide","id":"sl/rnuoan","slide":24,"title":"ORDENAÇÃO DOS PRODUTOS","textShapes":7}
+{"kind":"shape","id":"sh/jux0721s","slide":24,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/4v6h072d","slide":24,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/5wfi9cjy","slide":24,"text":"ORDENAÇÃO DOS PRODUTOS","textPreview":"ORDENAÇÃO DOS PRODUTOS","textChars":22,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/6xoz2hkj","slide":24,"text":"Produtos devem ser ordenados pelo menos por ID","textPreview":"Produtos devem ser ordenados pelo menos por ID","textChars":46,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/rix0bm1o","slide":24,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/sj6h4729","slide":24,"text":"24","textPreview":"24","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/tkfidcju","slide":24,"bbox":[72,186,8,24]}
+{"kind":"textbox","id":"sh/el8z6hkf","slide":24,"text":"Ordenação por ID é obrigatória.","textPreview":"Ordenação por ID é obrigatória.","textChars":31,"textLines":1,"bbox":[92,178,960,42]}
+{"kind":"shape","id":"sh/fmh0fm10","slide":24,"bbox":[72,262,8,24]}
+{"kind":"textbox","id":"sh/zml4ry90","slide":24,"text":"Ordenação por nome, preço e quantidade é opcional.","textPreview":"Ordenação por nome, preço e quantidade é opcional.","textChars":50,"textLines":1,"bbox":[92,254,960,42]}
+{"kind":"shape","id":"sh/elcnitsf","slide":24,"bbox":[72,338,8,24]}
+{"kind":"textbox","id":"sh/1o3mt8r6","slide":24,"text":"A ordenação por ID prepara os dados para a Busca Binária.","textPreview":"A ordenação por ID prepara os dados para a Busca Binária.","textChars":57,"textLines":1,"bbox":[92,330,960,42]}
+{"kind":"shape","id":"sh/0nu5k3al","slide":24,"bbox":[72,414,8,24]}
+{"kind":"textbox","id":"sh/ryl4nyto","slide":24,"text":"A estrutura principal continua sendo a LDE.","textPreview":"A estrutura principal continua sendo a LDE.","textChars":43,"textLines":1,"bbox":[92,406,960,42]}
+{"kind":"notes","id":"nt/rnuoan","slide":24,"text":""}
+{"kind":"slide","id":"sl/jedqlp","slide":25,"title":"COLEÇÃO AUXILIAR","textShapes":17}
+{"kind":"shape","id":"sh/cr6pob2t","slide":25,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/bqxof6l8","slide":25,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/qp47m1kn","slide":25,"text":"COLEÇÃO AUXILIAR","textPreview":"COLEÇÃO AUXILIAR","textChars":16,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/lwfqlgja","slide":25,"text":"A coleção auxiliar existe só para ordenar e buscar","textPreview":"A coleção auxiliar existe só para ordenar e buscar","textChars":50,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/0v6psb25","slide":25,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/zuxoj6lk","slide":25,"text":"25","textPreview":"25","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/yto7qlkz","slide":25,"bbox":[94,232,185,116]}
+{"kind":"textbox","id":"sh/9kzqp0jm","slide":25,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[110,244,32,30]}
+{"kind":"textbox","id":"sh/8zqpwv21","slide":25,"text":"Produtos na LDE","textPreview":"Produtos na LDE","textChars":15,"textLines":1,"bbox":[112,282,149,48]}
+{"kind":"textbox","id":"sh/ids3ypoz","slide":25,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[293,270,32,44]}
+{"kind":"shape","id":"sh/je14rupk","slide":25,"bbox":[314,232,185,116]}
+{"kind":"textbox","id":"sh/kfal0f65","slide":25,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[330,244,32,30]}
+{"kind":"textbox","id":"sh/5gjmtk7q","slide":25,"text":"Criar coleção auxiliar","textPreview":"Criar coleção auxiliar","textChars":22,"textLines":1,"bbox":[332,282,149,48]}
+{"kind":"textbox","id":"sh/61s32pov","slide":25,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[513,270,32,44]}
+{"kind":"shape","id":"sh/7214vupg","slide":25,"bbox":[534,232,185,116]}
+{"kind":"textbox","id":"sh/s3al4z61","slide":25,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[550,244,32,30]}
+{"kind":"textbox","id":"sh/t43mx47m","slide":25,"text":"Ordenar manualmente","textPreview":"Ordenar manualmente","textChars":19,"textLines":1,"bbox":[552,282,149,48]}
+{"kind":"textbox","id":"sh/m583q5or","slide":25,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[733,270,32,44]}
+{"kind":"shape","id":"sh/n6hkjapc","slide":25,"bbox":[754,232,185,116]}
+{"kind":"textbox","id":"sh/rqd0r654","slide":25,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[770,244,32,30]}
+{"kind":"textbox","id":"sh/qp4jy14j","slide":25,"text":"Usar o resultado","textPreview":"Usar o resultado","textChars":16,"textLines":1,"bbox":[772,282,149,48]}
+{"kind":"textbox","id":"sh/dcvitwna","slide":25,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[953,270,32,44]}
+{"kind":"shape","id":"sh/cbm10rmp","slide":25,"bbox":[974,232,185,116]}
+{"kind":"textbox","id":"sh/3md0nm5s","slide":25,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[990,244,32,30]}
+{"kind":"textbox","id":"sh/2lkzuh4n","slide":25,"text":"Manter LDE principal","textPreview":"Manter LDE principal","textChars":20,"textLines":1,"bbox":[992,282,149,48]}
+{"kind":"notes","id":"nt/jedqlp","slide":25,"text":""}
+{"kind":"slide","id":"sl/ctralz","slide":26,"title":"BUSCA BINÁRIA","textShapes":17}
+{"kind":"shape","id":"sh/ytw7e943","slide":26,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/lwnqponu","slide":26,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/0vepgjm9","slide":26,"text":"BUSCA BINÁRIA","textPreview":"BUSCA BINÁRIA","textChars":13,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/nyp8ry5k","slide":26,"text":"Busca Binária localiza produto por ID","textPreview":"Busca Binária localiza produto por ID","textChars":37,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/mxw7it4f","slide":26,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/9k7qtonq","slide":26,"text":"26","textPreview":"26","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/8zypk3m5","slide":26,"bbox":[94,232,185,116]}
+{"kind":"textbox","id":"sh/vmp8vylw","slide":26,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[110,244,32,30]}
+{"kind":"textbox","id":"sh/alg7mt4b","slide":26,"text":"Ler produtos da LDE","textPreview":"Ler produtos da LDE","textChars":19,"textLines":1,"bbox":[112,282,149,48]}
+{"kind":"textbox","id":"sh/sjut4f6l","slide":26,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[293,270,32,44]}
+{"kind":"shape","id":"sh/tk3axkn6","slide":26,"bbox":[314,232,185,116]}
+{"kind":"textbox","id":"sh/6hcb25of","slide":26,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[330,244,32,30]}
+{"kind":"textbox","id":"sh/7ilsva50","slide":26,"text":"Ordenar por ID","textPreview":"Ordenar por ID","textChars":14,"textLines":1,"bbox":[332,282,149,48]}
+{"kind":"textbox","id":"sh/g7et8f6h","slide":26,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[513,270,32,44]}
+{"kind":"shape","id":"sh/h8na1kn2","slide":26,"bbox":[534,232,185,116]}
+{"kind":"textbox","id":"sh/ulcb65or","slide":26,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[550,244,32,30]}
+{"kind":"textbox","id":"sh/f65sza5w","slide":26,"text":"Solicitar ID","textPreview":"Solicitar ID","textChars":12,"textLines":1,"bbox":[552,282,149,48]}
+{"kind":"textbox","id":"sh/4betcz6t","slide":26,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[733,270,32,44]}
+{"kind":"shape","id":"sh/pcnu54ne","slide":26,"bbox":[754,232,185,116]}
+{"kind":"textbox","id":"sh/dgj290b6","slide":26,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[770,244,32,30]}
+{"kind":"textbox","id":"sh/cfa10vul","slide":26,"text":"Aplicar Busca Binária","textPreview":"Aplicar Busca Binária","textChars":21,"textLines":1,"bbox":[772,282,149,48]}
+{"kind":"textbox","id":"sh/ruhk7qt0","slide":26,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[953,270,32,44]}
+{"kind":"shape","id":"sh/qt8jylcf","slide":26,"bbox":[974,232,185,116]}
+{"kind":"textbox","id":"sh/1kj2d0b2","slide":26,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[990,244,32,30]}
+{"kind":"textbox","id":"sh/0ja14vux","slide":26,"text":"Mostrar resultado","textPreview":"Mostrar resultado","textChars":17,"textLines":1,"bbox":[992,282,149,48]}
+{"kind":"notes","id":"nt/ctralz","slide":26,"text":""}
+{"kind":"slide","id":"sl/v7ghrx","slide":27,"title":"CUIDADOS OBRIGATÓRIOS","textShapes":8}
+{"kind":"shape","id":"sh/o3mp0vi5","slide":27,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/nid87qhk","slide":27,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/mh47y50z","slide":27,"text":"CUIDADOS OBRIGATÓRIOS","textPreview":"CUIDADOS OBRIGATÓRIOS","textChars":21,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/1gv650ze","slide":27,"text":"O que não é permitido em ordenação e busca","textPreview":"O que não é permitido em ordenação e busca","textChars":42,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/0fmpwvit","slide":27,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/zedo3qh8","slide":27,"text":"27","textPreview":"27","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/edk7ul0n","slide":27,"bbox":[72,186,8,24]}
+{"kind":"textbox","id":"sh/dcb61gzi","slide":27,"text":"Não usar sort(), sorted() ou bibliotecas para ordenar.","textPreview":"Não usar sort(), sorted() ou bibliotecas para ordenar.","textChars":54,"textLines":1,"bbox":[92,178,960,42]}
+{"kind":"shape","id":"sh/cb2psbix","slide":27,"bbox":[72,250,8,24]}
+{"kind":"textbox","id":"sh/61c3ql8f","slide":27,"text":"Não aplicar Busca Binária em dados desordenados.","textPreview":"Não aplicar Busca Binária em dados desordenados.","textChars":48,"textLines":1,"bbox":[92,242,960,42]}
+{"kind":"shape","id":"sh/7254zqp0","slide":27,"bbox":[72,314,8,24]}
+{"kind":"textbox","id":"sh/83elsv6l","slide":27,"text":"Não usar biblioteca pronta de Busca Binária.","textPreview":"Não usar biblioteca pronta de Busca Binária.","textChars":44,"textLines":1,"bbox":[92,306,960,42]}
+{"kind":"shape","id":"sh/t4nm1076","slide":27,"bbox":[72,378,8,24]}
+{"kind":"textbox","id":"sh/ydc3m18j","slide":27,"text":"Não trocar a Busca Binária por busca sequencial.","textPreview":"Não trocar a Busca Binária por busca sequencial.","textChars":48,"textLines":1,"bbox":[92,370,960,42]}
+{"kind":"shape","id":"sh/zelkv6p4","slide":27,"bbox":[72,442,8,24]}
+{"kind":"textbox","id":"sh/kzulobqp","slide":27,"text":"Não substituir a LDE por uma lista auxiliar permanente.","textPreview":"Não substituir a LDE por uma lista auxiliar permanente.","textChars":55,"textLines":1,"bbox":[92,434,960,42]}
+{"kind":"notes","id":"nt/v7ghrx","slide":27,"text":""}
+{"kind":"slide","id":"sl/qek49b","slide":28,"title":"04","textShapes":4}
+{"kind":"shape","id":"sh/wrqxkb2h","slide":28,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/vqhwr6lw","slide":28,"bbox":[0,0,86,720]}
+{"kind":"textbox","id":"sh/a58fi1kb","slide":28,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[126,104,110,62]}
+{"kind":"textbox","id":"sh/94zepw3q","slide":28,"text":"Persistência e resiliência","textPreview":"Persistência e resiliência","textChars":26,"textLines":1,"bbox":[126,205,820,110]}
+{"kind":"textbox","id":"sh/83qxgr25","slide":28,"text":"O sistema precisa continuar funcionando e preservar dados.","textPreview":"O sistema precisa continuar funcionando e preservar dados.","textChars":58,"textLines":1,"bbox":[130,340,780,74]}
+{"kind":"shape","id":"sh/n2hwnmlk","slide":28,"bbox":[1048,0,232,22]}
+{"kind":"shape","id":"sh/m1ofehkf","slide":28,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/t0jylgju","slide":28,"text":"28","textPreview":"28","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"notes","id":"nt/qek49b","slide":28,"text":""}
+{"kind":"slide","id":"sl/jixna7","slide":29,"title":"PERSISTÊNCIA AUTOMÁTICA","textShapes":7}
+{"kind":"shape","id":"sh/r6ts7md4","slide":29,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/s72tgrep","slide":29,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/dsbu9wvu","slide":29,"text":"PERSISTÊNCIA AUTOMÁTICA","textPreview":"PERSISTÊNCIA AUTOMÁTICA","textChars":23,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/i10bahw7","slide":29,"text":"Os dados devem sobreviver ao encerramento do programa","textPreview":"Os dados devem sobreviver ao encerramento do programa","textChars":53,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/329s32ds","slide":29,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/43itc7ed","slide":29,"text":"29","textPreview":"29","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/54ra5cvy","slide":29,"bbox":[72,186,8,24]}
+{"kind":"textbox","id":"sh/2x4bm1wr","slide":29,"text":"Salvar clientes, produtos e vendas.","textPreview":"Salvar clientes, produtos e vendas.","textChars":35,"textLines":1,"bbox":[92,178,960,42]}
+{"kind":"shape","id":"sh/nydcf6dc","slide":29,"bbox":[72,262,8,24]}
+{"kind":"textbox","id":"sh/3utwzyp0","slide":29,"text":"Arquivos mínimos esperados: clientes.csv, produtos.csv e vendas.csv.","textPreview":"Arquivos mínimos esperados: clientes.csv, produtos.csv e vendas.csv.","textChars":68,"textLines":1,"bbox":[92,254,960,42]}
+{"kind":"shape","id":"sh/2tkf6tof","slide":29,"bbox":[72,338,8,24]}
+{"kind":"textbox","id":"sh/pwbe187q","slide":29,"text":"TXT equivalente é permitido, se guardar todas as informações.","textPreview":"TXT equivalente é permitido, se guardar todas as informações.","textChars":61,"textLines":1,"bbox":[92,330,960,42]}
+{"kind":"shape","id":"sh/ov2x836l","slide":29,"bbox":[72,414,8,24]}
+{"kind":"textbox","id":"sh/bytw3ipw","slide":29,"text":"O grupo deve definir como armazenar vendas com múltiplos produtos.","textPreview":"O grupo deve definir como armazenar vendas com múltiplos produtos.","textChars":66,"textLines":1,"bbox":[92,406,960,42]}
+{"kind":"notes","id":"nt/jixna7","slide":29,"text":""}
+{"kind":"slide","id":"sl/ewm2r0","slide":30,"title":"CARREGAMENTO","textShapes":17}
+{"kind":"shape","id":"sh/90zilcba","slide":30,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/md8jaxsj","slide":30,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/nyh0j2t4","slide":30,"text":"CARREGAMENTO","textPreview":"CARREGAMENTO","textChars":12,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/w3a1g7al","slide":30,"text":"Ao iniciar, o sistema reconstrói as estruturas","textPreview":"Ao iniciar, o sistema reconstrói as estruturas","textChars":46,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/x4jipcr6","slide":30,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/a18jexsf","slide":30,"text":"30","textPreview":"30","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/b2h0n2t0","slide":30,"bbox":[94,232,185,116]}
+{"kind":"textbox","id":"sh/k7a1krax","slide":30,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[110,244,32,30]}
+{"kind":"textbox","id":"sh/58j2twr2","slide":30,"text":"Abrir arquivos","textPreview":"Abrir arquivos","textChars":14,"textLines":1,"bbox":[112,282,149,48]}
+{"kind":"textbox","id":"sh/xon6d0by","slide":30,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[293,270,32,44]}
+{"kind":"shape","id":"sh/wne5kfut","slide":30,"bbox":[314,232,185,116]}
+{"kind":"textbox","id":"sh/bm54bat8","slide":30,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[330,244,32,30]}
+{"kind":"textbox","id":"sh/alwni5cn","slide":30,"text":"Carregar clientes","textPreview":"Carregar clientes","textChars":17,"textLines":1,"bbox":[332,282,149,48]}
+{"kind":"textbox","id":"sh/5s76hkba","slide":30,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[513,270,32,44]}
+{"kind":"shape","id":"sh/kre5ofup","slide":30,"bbox":[534,232,185,116]}
+{"kind":"textbox","id":"sh/jq5ofat4","slide":30,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[550,244,32,30]}
+{"kind":"textbox","id":"sh/ipwnm5cj","slide":30,"text":"Reconstruir LSE","textPreview":"Reconstruir LSE","textChars":15,"textLines":1,"bbox":[552,282,149,48]}
+{"kind":"textbox","id":"sh/1w3m5gb6","slide":30,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[733,270,32,44]}
+{"kind":"shape","id":"sh/0vu5cvul","slide":30,"bbox":[754,232,185,116]}
+{"kind":"textbox","id":"sh/szy5sv2h","slide":30,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[770,244,32,30]}
+{"kind":"textbox","id":"sh/d076103m","slide":30,"text":"Reconstruir LDE","textPreview":"Reconstruir LDE","textChars":15,"textLines":1,"bbox":[772,282,149,48]}
+{"kind":"textbox","id":"sh/qxwnqlkb","slide":30,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[953,270,32,44]}
+{"kind":"shape","id":"sh/ry5ozqlw","slide":30,"bbox":[974,232,185,116]}
+{"kind":"textbox","id":"sh/03y5wv2d","slide":30,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[990,244,32,30]}
+{"kind":"textbox","id":"sh/147650jy","slide":30,"text":"Reconstruir Fila","textPreview":"Reconstruir Fila","textChars":16,"textLines":1,"bbox":[992,282,149,48]}
+{"kind":"notes","id":"nt/ewm2r0","slide":30,"text":""}
+{"kind":"slide","id":"sl/88fhu3","slide":31,"title":"SALVAMENTO","textShapes":17}
+{"kind":"shape","id":"sh/wvu9szql","slide":31,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/vul8zepg","slide":31,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/utcrq98v","slide":31,"text":"SALVAMENTO","textPreview":"SALVAMENTO","textChars":10,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/50na5o7i","slide":31,"text":"Alteração válida salva automaticamente","textPreview":"Alteração válida salva automaticamente","textChars":38,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/4ze9wjqx","slide":31,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/jy583epc","slide":31,"text":"31","textPreview":"31","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/ixcru98r","slide":31,"bbox":[94,232,185,116]}
+{"kind":"textbox","id":"sh/l4jqtk7y","slide":31,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[110,244,32,30]}
+{"kind":"textbox","id":"sh/03a9kfqt","slide":31,"text":"Validar ação","textPreview":"Validar ação","textChars":12,"textLines":1,"bbox":[112,282,149,48]}
+{"kind":"textbox","id":"sh/yt4balwb","slide":31,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[293,270,32,44]}
+{"kind":"shape","id":"sh/zudc36dg","slide":31,"bbox":[314,232,185,116]}
+{"kind":"textbox","id":"sh/0vmtcbe1","slide":31,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[330,244,32,30]}
+{"kind":"textbox","id":"sh/lwvu5gvm","slide":31,"text":"Alterar memória","textPreview":"Alterar memória","textChars":15,"textLines":1,"bbox":[332,282,149,48]}
+{"kind":"textbox","id":"sh/mx4belw7","slide":31,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[513,270,32,44]}
+{"kind":"shape","id":"sh/nydc7qds","slide":31,"bbox":[534,232,185,116]}
+{"kind":"textbox","id":"sh/8jmtgved","slide":31,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[550,244,32,30]}
+{"kind":"textbox","id":"sh/9kvu90vy","slide":31,"text":"Atualizar estruturas","textPreview":"Atualizar estruturas","textChars":20,"textLines":1,"bbox":[552,282,149,48]}
+{"kind":"textbox","id":"sh/alobi5w3","slide":31,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[733,270,32,44]}
+{"kind":"shape","id":"sh/vmxcbqdo","slide":31,"bbox":[754,232,185,116]}
+{"kind":"textbox","id":"sh/rqxszatw","slide":31,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[770,244,32,30]}
+{"kind":"textbox","id":"sh/6pob65sb","slide":31,"text":"Gravar arquivos","textPreview":"Gravar arquivos","textChars":15,"textLines":1,"bbox":[772,282,149,48]}
+{"kind":"textbox","id":"sh/tsza10b2","slide":31,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[953,270,32,44]}
+{"kind":"shape","id":"sh/sr6t8fah","slide":31,"bbox":[974,232,185,116]}
+{"kind":"textbox","id":"sh/jmxsvqt0","slide":31,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[990,244,32,30]}
+{"kind":"textbox","id":"sh/ilor2lsf","slide":31,"text":"Voltar ao menu","textPreview":"Voltar ao menu","textChars":14,"textLines":1,"bbox":[992,282,149,48]}
+{"kind":"notes","id":"nt/88fhu3","slide":31,"text":""}
+{"kind":"slide","id":"sl/8w20ep","slide":32,"title":"TRATAMENTO DE ERROS","textShapes":8}
+{"kind":"shape","id":"sh/87axwbel","slide":32,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/761g36x0","slide":32,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/65sfu1wf","slide":32,"text":"TRATAMENTO DE ERROS","textPreview":"TRATAMENTO DE ERROS","textChars":19,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/l4je1wfu","slide":32,"text":"Regra central: o sistema não pode parar por erro previsto","textPreview":"Regra central: o sistema não pode parar por erro previsto","textChars":57,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/k3qxsry9","slide":32,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/j2hwz6xo","slide":32,"text":"32","textPreview":"32","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/y18fq1gj","slide":32,"bbox":[72,186,8,24]}
+{"kind":"textbox","id":"sh/x0zexwfy","slide":32,"text":"Toda entrada do terminal deve ser validada antes de ser usada.","textPreview":"Toda entrada do terminal deve ser validada antes de ser usada.","textChars":62,"textLines":1,"bbox":[92,178,960,42]}
+{"kind":"shape","id":"sh/wfqxoryd","slide":32,"bbox":[72,248,8,24]}
+{"kind":"textbox","id":"sh/ulgb29kn","slide":32,"text":"Erro previsto não pode encerrar abruptamente a execução.","textPreview":"Erro previsto não pode encerrar abruptamente a execução.","textChars":56,"textLines":1,"bbox":[92,240,960,42]}
+{"kind":"shape","id":"sh/fmpcbe18","slide":32,"bbox":[72,310,8,24]}
+{"kind":"textbox","id":"sh/g7yt4j2t","slide":32,"text":"A ação inválida não deve ser finalizada.","textPreview":"A ação inválida não deve ser finalizada.","textChars":40,"textLines":1,"bbox":[92,302,960,42]}
+{"kind":"shape","id":"sh/h87ud4je","slide":32,"bbox":[72,372,8,24]}
+{"kind":"textbox","id":"sh/6hwbypkr","slide":32,"text":"Os dados existentes devem ser preservados.","textPreview":"Os dados existentes devem ser preservados.","textChars":42,"textLines":1,"bbox":[92,364,960,42]}
+{"kind":"shape","id":"sh/7i5c7u1w","slide":32,"bbox":[72,434,8,24]}
+{"kind":"textbox","id":"sh/sjet0z2h","slide":32,"text":"Depois da mensagem de erro, o sistema deve voltar ao menu.","textPreview":"Depois da mensagem de erro, o sistema deve voltar ao menu.","textChars":58,"textLines":1,"bbox":[92,426,960,42]}
+{"kind":"notes","id":"nt/8w20ep","slide":32,"text":""}
+{"kind":"slide","id":"sl/2dsgaf","slide":33,"title":"TRATAMENTOS MÍNIMOS","textShapes":27}
+{"kind":"shape","id":"sh/jqhovidk","slide":33,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/kbqpone5","slide":33,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/5cz6xsvq","slide":33,"text":"TRATAMENTOS MÍNIMOS","textPreview":"TRATAMENTOS MÍNIMOS","textChars":19,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/6d87qxwb","slide":33,"text":"O sistema precisa tratar erros previsíveis","textPreview":"O sistema precisa tratar erros previsíveis","textChars":42,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/7ehoz2dw","slide":33,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/sfqps7eh","slide":33,"text":"33","textPreview":"33","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/tgj61cvm","slide":33,"bbox":[92,178,28,28]}
+{"kind":"textbox","id":"sh/uhs7uxw7","slide":33,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[97,178,20,24]}
+{"kind":"textbox","id":"sh/fi1o32ds","slide":33,"text":"opção de menu inválida","textPreview":"opção de menu inválida","textChars":22,"textLines":1,"bbox":[134,176,475,32]}
+{"kind":"shape","id":"sh/bm9kbap8","slide":33,"bbox":[92,225,28,28]}
+{"kind":"textbox","id":"sh/al0ji58n","slide":33,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[97,225,20,24]}
+{"kind":"textbox","id":"sh/xor2d07e","slide":33,"text":"letras quando número é esperado","textPreview":"letras quando número é esperado","textChars":31,"textLines":1,"bbox":[134,223,475,32]}
+{"kind":"shape","id":"sh/wni1kfqt","slide":33,"bbox":[92,272,28,28]}
+{"kind":"textbox","id":"sh/nip07q9c","slide":33,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[97,272,20,24]}
+{"kind":"textbox","id":"sh/mxgjel8r","slide":33,"text":"campos obrigatórios vazios","textPreview":"campos obrigatórios vazios","textChars":26,"textLines":1,"bbox":[134,270,475,32]}
+{"kind":"shape","id":"sh/9k7290ri","slide":33,"bbox":[92,319,28,28]}
+{"kind":"textbox","id":"sh/ojy1gvqx","slide":33,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[97,319,20,24]}
+{"kind":"textbox","id":"sh/7etkjupg","slide":33,"text":"IDs inexistentes ou duplicados","textPreview":"IDs inexistentes ou duplicados","textChars":30,"textLines":1,"bbox":[134,317,475,32]}
+{"kind":"shape","id":"sh/6tkjqp8v","slide":33,"bbox":[92,366,28,28]}
+{"kind":"textbox","id":"sh/2lovydwf","slide":33,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[97,366,20,24]}
+{"kind":"textbox","id":"sh/3mxw7id0","slide":33,"text":"preço inválido","textPreview":"preço inválido","textChars":14,"textLines":1,"bbox":[134,364,475,32]}
+{"kind":"shape","id":"sh/on6d0nel","slide":33,"bbox":[92,413,28,28]}
+{"kind":"textbox","id":"sh/pofe9sv6","slide":33,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[97,413,20,24]}
+{"kind":"textbox","id":"sh/qp8v2xwr","slide":33,"text":"quantidade inválida","textPreview":"quantidade inválida","textChars":19,"textLines":1,"bbox":[134,411,475,32]}
+{"kind":"shape","id":"sh/bqhwb2dw","slide":33,"bbox":[664,178,28,28]}
+{"kind":"textbox","id":"sh/crqd47eh","slide":33,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[669,178,20,24]}
+{"kind":"textbox","id":"sh/dszedsv2","slide":33,"text":"estoque insuficiente","textPreview":"estoque insuficiente","textChars":20,"textLines":1,"bbox":[706,176,475,32]}
+{"kind":"shape","id":"sh/6t4vqtw7","slide":33,"bbox":[664,225,28,28]}
+{"kind":"textbox","id":"sh/rudczyxs","slide":33,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[669,225,20,24]}
+{"kind":"textbox","id":"sh/9o3y5wfa","slide":33,"text":"cliente ou produto inexistente","textPreview":"cliente ou produto inexistente","textChars":30,"textLines":1,"bbox":[706,223,475,32]}
+{"kind":"shape","id":"sh/8nahwryp","slide":33,"bbox":[664,272,28,28]}
+{"kind":"textbox","id":"sh/nm1g36x4","slide":33,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[669,272,20,24]}
+{"kind":"textbox","id":"sh/mlsfu1gz","slide":33,"text":"remoção de item inexistente","textPreview":"remoção de item inexistente","textChars":27,"textLines":1,"bbox":[706,270,475,32]}
+{"kind":"shape","id":"sh/xc3y9gfm","slide":33,"bbox":[664,319,28,28]}
+{"kind":"textbox","id":"sh/wbuh0by1","slide":33,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[669,319,20,24]}
+{"kind":"textbox","id":"sh/valg76xg","slide":33,"text":"listagens sem registros","textPreview":"listagens sem registros","textChars":23,"textLines":1,"bbox":[706,317,475,32]}
+{"kind":"shape","id":"sh/a9czy1gv","slide":33,"bbox":[664,366,28,28]}
+{"kind":"textbox","id":"sh/dgzyxcz2","slide":33,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[669,366,20,24]}
+{"kind":"textbox","id":"sh/cfqxo7yh","slide":33,"text":"Fila ou Pilha vazia","textPreview":"Fila ou Pilha vazia","textChars":19,"textLines":1,"bbox":[706,364,475,32]}
+{"kind":"shape","id":"sh/gby1wfi5","slide":33,"bbox":[664,413,28,28]}
+{"kind":"textbox","id":"sh/1c725kzq","slide":33,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[669,413,20,24]}
+{"kind":"textbox","id":"sh/e9gjup0z","slide":33,"text":"arquivos inexistentes, vazios ou inválidos","textPreview":"arquivos inexistentes, vazios ou inválidos","textChars":42,"textLines":1,"bbox":[706,411,475,32]}
+{"kind":"notes","id":"nt/2dsgaf","slide":33,"text":""}
+{"kind":"slide","id":"sl/dvtbzh","slide":34,"title":"ERRO TRATADO","textShapes":17}
+{"kind":"shape","id":"sh/4ba1or6h","slide":34,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/jq1kf65w","slide":34,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/ipsjm1ob","slide":34,"text":"ERRO TRATADO","textPreview":"ERRO TRATADO","textChars":12,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/tg32lgny","slide":34,"text":"Padrão esperado para qualquer erro","textPreview":"Padrão esperado para qualquer erro","textChars":34,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/sfu1sbmd","slide":34,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/relkj65s","slide":34,"text":"34","textPreview":"34","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/6dcjq1on","slide":34,"bbox":[94,232,185,116]}
+{"kind":"textbox","id":"sh/1kn2pgna","slide":34,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[110,244,32,30]}
+{"kind":"textbox","id":"sh/gju1wbmp","slide":34,"text":"Detectar problema","textPreview":"Detectar problema","textChars":17,"textLines":1,"bbox":[112,282,149,48]}
+{"kind":"textbox","id":"sh/6hob2p43","slide":34,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[293,270,32,44]}
+{"kind":"shape","id":"sh/7ixcvu5o","slide":34,"bbox":[314,232,185,116]}
+{"kind":"textbox","id":"sh/8j6t4zmt","slide":34,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[330,244,32,30]}
+{"kind":"textbox","id":"sh/tkfux4ne","slide":34,"text":"Explicar ao usuário","textPreview":"Explicar ao usuário","textChars":19,"textLines":1,"bbox":[332,282,149,48]}
+{"kind":"textbox","id":"sh/u58b694z","slide":34,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[513,270,32,44]}
+{"kind":"shape","id":"sh/f6hcze5k","slide":34,"bbox":[534,232,185,116]}
+{"kind":"textbox","id":"sh/g7qt8jm5","slide":34,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[550,244,32,30]}
+{"kind":"textbox","id":"sh/h8zu14nq","slide":34,"text":"Cancelar ação","textPreview":"Cancelar ação","textChars":13,"textLines":1,"bbox":[552,282,149,48]}
+{"kind":"textbox","id":"sh/a94bu5ov","slide":34,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[733,270,32,44]}
+{"kind":"shape","id":"sh/badsna5g","slide":34,"bbox":[754,232,185,116]}
+{"kind":"textbox","id":"sh/zut8v6l8","slide":34,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[770,244,32,30]}
+{"kind":"textbox","id":"sh/et0r214n","slide":34,"text":"Não salvar alteração","textPreview":"Não salvar alteração","textChars":20,"textLines":1,"bbox":[772,282,149,48]}
+{"kind":"textbox","id":"sh/1gbqxg3y","slide":34,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[953,270,32,44]}
+{"kind":"shape","id":"sh/0f294bmt","slide":34,"bbox":[974,232,185,116]}
+{"kind":"textbox","id":"sh/rq98r6lw","slide":34,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[990,244,32,30]}
+{"kind":"textbox","id":"sh/qp0ry14b","slide":34,"text":"Voltar ao menu","textPreview":"Voltar ao menu","textChars":14,"textLines":1,"bbox":[992,282,149,48]}
+{"kind":"notes","id":"nt/dvtbzh","slide":34,"text":""}
+{"kind":"slide","id":"sl/dxwl8s","slide":35,"title":"05","textShapes":4}
+{"kind":"shape","id":"sh/o3m983a1","slide":35,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/n2d8fi9g","slide":35,"bbox":[0,0,86,720]}
+{"kind":"textbox","id":"sh/21kr6dsv","slide":35,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[126,104,110,62]}
+{"kind":"textbox","id":"sh/10bqd8ra","slide":35,"text":"Organização e trabalho em grupo","textPreview":"Organização e trabalho em grupo","textChars":31,"textLines":1,"bbox":[126,205,820,110]}
+{"kind":"textbox","id":"sh/0z2943ap","slide":35,"text":"Um projeto legível é mais fácil de testar, explicar e corrigir.","textPreview":"Um projeto legível é mais fácil de testar, explicar e corrigir.","textChars":63,"textLines":1,"bbox":[130,340,780,74]}
+{"kind":"shape","id":"sh/fyt8by9k","slide":35,"bbox":[1048,0,232,22]}
+{"kind":"shape","id":"sh/exkr2tsz","slide":35,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/dwbq9ore","slide":35,"text":"35","textPreview":"35","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"notes","id":"nt/dxwl8s","slide":35,"text":""}
+{"kind":"slide","id":"sl/gcawde","slide":36,"title":"ORGANIZAÇÃO","textShapes":4}
+{"kind":"shape","id":"sh/1ovqdcbu","slide":36,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/e1k72hcj","slide":36,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/f2d8bmto","slide":36,"text":"ORGANIZAÇÃO","textPreview":"ORGANIZAÇÃO","textChars":11,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/ormp8rul","slide":36,"text":"Árvore sugerida de arquivos e pastas","textPreview":"Árvore sugerida de arquivos e pastas","textChars":36,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/psvqhwb6","slide":36,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/2p476hcf","slide":36,"text":"36","textPreview":"36","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/3qd8fmt0","slide":36,"bbox":[92,170,1000,458]}
+{"kind":"textbox","id":"sh/kv2pw7u1","slide":36,"text":"projeto/\n├── main.py\n├── models/\n│   ├── cliente.py\n│   ├── produto.py\n│   └── venda.py\n├── estruturas/\n│   ├── nodo.py\n│   ├── lse.py\n│   ├── lde.py\n│   ├── fila.py\n│   └── pilha.py\n├── algoritmos/\n│   ├── ordenacao.py\n│   └── busca_binaria.py\n├── services/\n│   ├── estoque_service.py\n│   └── persistencia_service.py\n├── data/\n│   ├── clientes.csv\n│   ├── produtos.csv\n│   └── vendas.csv\n└── README.md","textPreview":"projeto/ | ├── main.py | ├── models/ | │   ├── cliente.py | │   ├── produto.py | │   └── venda.py | ├── estruturas/ | │   ├── nodo.py | │...","textChars":402,"textLines":23,"bbox":[122,196,940,412]}
+{"kind":"notes","id":"nt/gcawde","slide":36,"text":""}
+{"kind":"slide","id":"sl/26t7fs","slide":37,"title":"ORGANIZAÇÃO","textShapes":8}
+{"kind":"shape","id":"sh/4fmd87m5","slide":37,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/3edcf2lk","slide":37,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/id4v6h4z","slide":37,"text":"ORGANIZAÇÃO","textPreview":"ORGANIZAÇÃO","textChars":11,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/hcvudc3e","slide":37,"text":"A árvore é sugestão, não limite","textPreview":"A árvore é sugestão, não limite","textChars":31,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/gbmd47mt","slide":37,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/vadcb2lo","slide":37,"text":"37","textPreview":"37","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/u94v2x43","slide":37,"bbox":[72,186,8,24]}
+{"kind":"textbox","id":"sh/t8vu9s3i","slide":37,"text":"O grupo pode criar mais classes, arquivos e pastas se precisar.","textPreview":"O grupo pode criar mais classes, arquivos e pastas se precisar.","textChars":63,"textLines":1,"bbox":[92,178,960,42]}
+{"kind":"shape","id":"sh/872t0nmx","slide":37,"bbox":[72,248,8,24]}
+{"kind":"textbox","id":"sh/6x0fm5o3","slide":37,"text":"O importante é separar responsabilidades com clareza.","textPreview":"O importante é separar responsabilidades com clareza.","textChars":53,"textLines":1,"bbox":[92,240,960,42]}
+{"kind":"shape","id":"sh/ry9gvapo","slide":37,"bbox":[72,310,8,24]}
+{"kind":"textbox","id":"sh/sz2xof69","slide":37,"text":"Evitem concentrar tudo em um único main.py.","textPreview":"Evitem concentrar tudo em um único main.py.","textChars":43,"textLines":1,"bbox":[92,302,960,42]}
+{"kind":"shape","id":"sh/t0byhk7u","slide":37,"bbox":[72,372,8,24]}
+{"kind":"textbox","id":"sh/i90fi5o7","slide":37,"text":"Serviços podem ajudar a organizar regras de venda, estoque e persistência.","textPreview":"Serviços podem ajudar a organizar regras de venda, estoque e persistência.","textChars":74,"textLines":1,"bbox":[92,364,960,42]}
+{"kind":"shape","id":"sh/ja9grapc","slide":37,"bbox":[72,434,8,24]}
+{"kind":"textbox","id":"sh/4bixkv6x","slide":37,"text":"Cada integrante deve compreender a estrutura adotada pelo grupo.","textPreview":"Cada integrante deve compreender a estrutura adotada pelo grupo.","textChars":64,"textLines":1,"bbox":[92,426,960,42]}
+{"kind":"notes","id":"nt/26t7fs","slide":37,"text":""}
+{"kind":"slide","id":"sl/xpvddb","slide":38,"title":"PASSO A PASSO SUGERIDO","textShapes":15}
+{"kind":"shape","id":"sh/m1o3mdcn","slide":38,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/94fmhsvy","slide":38,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/8365onud","slide":38,"text":"PASSO A PASSO SUGERIDO","textPreview":"PASSO A PASSO SUGERIDO","textChars":22,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/vqh4jid4","slide":38,"text":"Um caminho seguro para desenvolver","textPreview":"Um caminho seguro para desenvolver","textChars":34,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/uponqxcj","slide":38,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/hszmlsva","slide":38,"text":"38","textPreview":"38","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/wrq5snup","slide":38,"bbox":[80,170,42,42]}
+{"kind":"textbox","id":"sh/bud47yd0","slide":38,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[92,178,18,22]}
+{"kind":"textbox","id":"sh/at43etcf","slide":38,"text":"Criem as classes Cliente, Produto e Venda.","textPreview":"Criem as classes Cliente, Produto e Venda.","textChars":42,"textLines":1,"bbox":[144,168,930,48]}
+{"kind":"shape","id":"sh/g3ih0bqx","slide":38,"bbox":[80,238,42,42]}
+{"kind":"textbox","id":"sh/h4ry9wri","slide":38,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[92,246,18,22]}
+{"kind":"textbox","id":"sh/u1gzy18r","slide":38,"text":"Implementem LSE, LDE, Fila e Pilha usando os códigos de aula como base.","textPreview":"Implementem LSE, LDE, Fila e Pilha usando os códigos de aula como base.","textChars":71,"textLines":1,"bbox":[144,236,930,48]}
+{"kind":"shape","id":"sh/f2pg769c","slide":38,"bbox":[80,306,42,42]}
+{"kind":"textbox","id":"sh/47ih4bq9","slide":38,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[92,314,18,22]}
+{"kind":"textbox","id":"sh/p8rydg7u","slide":38,"text":"Montem o menu com entradas validadas desde o início.","textPreview":"Montem o menu com entradas validadas desde o início.","textChars":52,"textLines":1,"bbox":[144,304,930,48]}
+{"kind":"shape","id":"sh/250z2183","slide":38,"bbox":[80,374,42,42]}
+{"kind":"textbox","id":"sh/369gb6po","slide":38,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[92,382,18,22]}
+{"kind":"textbox","id":"sh/kbexs7qp","slide":38,"text":"Implementem clientes e produtos antes de vendas.","textPreview":"Implementem clientes e produtos antes de vendas.","textChars":48,"textLines":1,"bbox":[144,372,930,48]}
+{"kind":"shape","id":"sh/lc7y1cra","slide":38,"bbox":[80,442,42,42]}
+{"kind":"textbox","id":"sh/1gf69of2","slide":38,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[92,450,18,22]}
+{"kind":"textbox","id":"sh/0f65gjeh","slide":38,"text":"Só depois integrem venda, desfazer, ordenação, busca e persistência.","textPreview":"Só depois integrem venda, desfazer, ordenação, busca e persistência.","textChars":68,"textLines":1,"bbox":[144,440,930,48]}
+{"kind":"shape","id":"sh/zux47exw","slide":38,"bbox":[80,510,42,42]}
+{"kind":"textbox","id":"sh/et4ne9wb","slide":38,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[92,518,18,22]}
+{"kind":"textbox","id":"sh/9kf6dofy","slide":38,"text":"Testem uma funcionalidade por vez antes de continuar.","textPreview":"Testem uma funcionalidade por vez antes de continuar.","textChars":53,"textLines":1,"bbox":[144,508,930,48]}
+{"kind":"notes","id":"nt/xpvddb","slide":38,"text":""}
+{"kind":"slide","id":"sl/pu2tv6","slide":39,"title":"ROTEIRO PRÁTICO","textShapes":15}
+{"kind":"shape","id":"sh/t0fq1sfu","slide":39,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/6xo76xg3","slide":39,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/ryxozixo","slide":39,"text":"ROTEIRO PRÁTICO","textPreview":"ROTEIRO PRÁTICO","textChars":15,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/kv6p4nyd","slide":39,"text":"Como testar durante o desenvolvimento","textPreview":"Como testar durante o desenvolvimento","textChars":37,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/5wf6xsfy","slide":39,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/it472dg7","slide":39,"text":"39","textPreview":"39","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/judovixs","slide":39,"bbox":[80,170,42,42]}
+{"kind":"textbox","id":"sh/orqpg7eh","slide":39,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[92,178,18,22]}
+{"kind":"textbox","id":"sh/pszq9cf2","slide":39,"text":"Comecem sempre com arquivos vazios ou inexistentes.","textPreview":"Comecem sempre com arquivos vazios ou inexistentes.","textChars":51,"textLines":1,"bbox":[144,168,930,48]}
+{"kind":"shape","id":"sh/ho3i9cfu","slide":39,"bbox":[80,238,42,42]}
+{"kind":"textbox","id":"sh/gnu1g7y9","slide":39,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[92,246,18,22]}
+{"kind":"textbox","id":"sh/vml072xo","slide":39,"text":"Cadastrem clientes e produtos válidos.","textPreview":"Cadastrem clientes e produtos válidos.","textChars":38,"textLines":1,"bbox":[144,236,930,48]}
+{"kind":"shape","id":"sh/ulcjexg3","slide":39,"bbox":[80,306,42,42]}
+{"kind":"textbox","id":"sh/tk3i5sfi","slide":39,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[92,314,18,22]}
+{"kind":"textbox","id":"sh/8ju1cnyx","slide":39,"text":"Tentem entradas inválidas em cada campo.","textPreview":"Tentem entradas inválidas em cada campo.","textChars":40,"textLines":1,"bbox":[144,304,930,48]}
+{"kind":"shape","id":"sh/7i103ixc","slide":39,"bbox":[80,374,42,42]}
+{"kind":"textbox","id":"sh/6hsjadg7","slide":39,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[92,382,18,22]}
+{"kind":"textbox","id":"sh/dgn2hwfm","slide":39,"text":"Realizem uma venda válida e confiram estoque, Fila e arquivo.","textPreview":"Realizem uma venda válida e confiram estoque, Fila e arquivo.","textChars":61,"textLines":1,"bbox":[144,372,930,48]}
+{"kind":"shape","id":"sh/sfe1oryh","slide":39,"bbox":[80,442,42,42]}
+{"kind":"textbox","id":"sh/cjmlkv6d","slide":39,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[92,450,18,22]}
+{"kind":"textbox","id":"sh/xkvmd0ny","slide":39,"text":"Tentem venda inválida e confiram que nada mudou.","textPreview":"Tentem venda inválida e confiram que nada mudou.","textChars":48,"textLines":1,"bbox":[144,440,930,48]}
+{"kind":"shape","id":"sh/ax43ilon","slide":39,"bbox":[80,510,42,42]}
+{"kind":"textbox","id":"sh/byd4bq5s","slide":39,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[92,518,18,22]}
+{"kind":"textbox","id":"sh/ovmlgb6h","slide":39,"text":"Reiniciem o programa e verifiquem se os dados carregam corretamente.","textPreview":"Reiniciem o programa e verifiquem se os dados carregam corretamente.","textChars":68,"textLines":1,"bbox":[144,508,930,48]}
+{"kind":"notes","id":"nt/pu2tv6","slide":39,"text":""}
+{"kind":"slide","id":"sl/d6s5zp","slide":40,"title":"TESTES","textShapes":27}
+{"kind":"shape","id":"sh/a94f65oz","slide":40,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/xwve1knq","slide":40,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/wbmx8f65","slide":40,"text":"TESTES","textPreview":"TESTES","textChars":6,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/n6dwvq5o","slide":40,"text":"Cenários mínimos de teste manual","textPreview":"Cenários mínimos de teste manual","textChars":32,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/m5kf2lo3","slide":40,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/98vex0ne","slide":40,"text":"40","textPreview":"40","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/o7mx4v69","slide":40,"bbox":[92,178,28,28]}
+{"kind":"textbox","id":"sh/72xg7u5s","slide":40,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[97,178,20,24]}
+{"kind":"textbox","id":"sh/61ofepo7","slide":40,"text":"ID duplicado de cliente","textPreview":"ID duplicado de cliente","textChars":23,"textLines":1,"bbox":[134,176,475,32]}
+{"kind":"shape","id":"sh/k7ut4j6t","slide":40,"bbox":[92,225,28,28]}
+{"kind":"textbox","id":"sh/583axony","slide":40,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[97,225,20,24]}
+{"kind":"textbox","id":"sh/i5cb29on","slide":40,"text":"ID duplicado de produto","textPreview":"ID duplicado de produto","textChars":23,"textLines":1,"bbox":[134,223,475,32]}
+{"kind":"shape","id":"sh/j6lsve58","slide":40,"bbox":[92,272,28,28]}
+{"kind":"textbox","id":"sh/wjat0z6h","slide":40,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[97,272,20,24]}
+{"kind":"textbox","id":"sh/x43at4n2","slide":40,"text":"preço zero ou negativo","textPreview":"preço zero ou negativo","textChars":22,"textLines":1,"bbox":[134,270,475,32]}
+{"kind":"shape","id":"sh/ahsry9ob","slide":40,"bbox":[92,319,28,28]}
+{"kind":"textbox","id":"sh/vi1sru5w","slide":40,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[97,319,20,24]}
+{"kind":"textbox","id":"sh/8fa9wz6l","slide":40,"text":"quantidade negativa","textPreview":"quantidade negativa","textChars":19,"textLines":1,"bbox":[134,317,475,32]}
+{"kind":"shape","id":"sh/9gjap4n6","slide":40,"bbox":[92,366,28,28]}
+{"kind":"textbox","id":"sh/pcbqtgzu","slide":40,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[97,366,20,24]}
+{"kind":"textbox","id":"sh/ob2p0vy9","slide":40,"text":"venda sem estoque suficiente","textPreview":"venda sem estoque suficiente","textChars":28,"textLines":1,"bbox":[134,364,475,32]}
+{"kind":"shape","id":"sh/3at8rqho","slide":40,"bbox":[92,413,28,28]}
+{"kind":"textbox","id":"sh/29k7ylg3","slide":40,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[97,413,20,24]}
+{"kind":"textbox","id":"sh/18rqpgzi","slide":40,"text":"venda com produto inexistente","textPreview":"venda com produto inexistente","textChars":29,"textLines":1,"bbox":[134,411,475,32]}
+{"kind":"shape","id":"sh/g7ipwbyd","slide":40,"bbox":[664,178,28,28]}
+{"kind":"textbox","id":"sh/f698n6hs","slide":40,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[669,178,20,24]}
+{"kind":"textbox","id":"sh/e507u1g7","slide":40,"text":"desfazer sem operações","textPreview":"desfazer sem operações","textChars":22,"textLines":1,"bbox":[706,176,475,32]}
+{"kind":"shape","id":"sh/l4vq10z2","slide":40,"bbox":[664,225,28,28]}
+{"kind":"textbox","id":"sh/k3m98fyh","slide":40,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[669,225,20,24]}
+{"kind":"textbox","id":"sh/ixwf6dsn","slide":40,"text":"listar Fila vazia","textPreview":"listar Fila vazia","textChars":17,"textLines":1,"bbox":[706,223,475,32]}
+{"kind":"shape","id":"sh/jy5wfit8","slide":40,"bbox":[664,272,28,28]}
+{"kind":"textbox","id":"sh/kzex8nat","slide":40,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[669,272,20,24]}
+{"kind":"textbox","id":"sh/50neh8be","slide":40,"text":"arquivo CSV vazio","textPreview":"arquivo CSV vazio","textChars":17,"textLines":1,"bbox":[706,270,475,32]}
+{"kind":"shape","id":"sh/a9cv2tsr","slide":40,"bbox":[664,319,28,28]}
+{"kind":"textbox","id":"sh/valwbytc","slide":40,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[669,319,20,24]}
+{"kind":"textbox","id":"sh/wbud43ah","slide":40,"text":"arquivo CSV com dado inválido","textPreview":"arquivo CSV com dado inválido","textChars":29,"textLines":1,"bbox":[706,317,475,32]}
+{"kind":"shape","id":"sh/xwned8b2","slide":40,"bbox":[664,366,28,28]}
+{"kind":"textbox","id":"sh/u5gfexsv","slide":40,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[669,366,20,24]}
+{"kind":"textbox","id":"sh/f6pwn2tg","slide":40,"text":"Busca Binária por ID existente","textPreview":"Busca Binária por ID existente","textChars":30,"textLines":1,"bbox":[706,364,475,32]}
+{"kind":"shape","id":"sh/zy5s3uxw","slide":40,"bbox":[664,413,28,28]}
+{"kind":"textbox","id":"sh/excbapwb","slide":40,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[669,413,20,24]}
+{"kind":"textbox","id":"sh/1kna54vm","slide":40,"text":"Busca Binária por ID inexistente","textPreview":"Busca Binária por ID inexistente","textChars":32,"textLines":1,"bbox":[706,411,475,32]}
+{"kind":"notes","id":"nt/d6s5zp","slide":40,"text":""}
+{"kind":"slide","id":"sl/7hf6g4","slide":41,"title":"README E COMPLEXIDADE","textShapes":9}
+{"kind":"shape","id":"sh/61c7ex8r","slide":41,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/t4nqpc7i","slide":41,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/s3epg7qx","slide":41,"text":"README E COMPLEXIDADE","textPreview":"README E COMPLEXIDADE","textChars":21,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/jyl8j2p0","slide":41,"text":"O README mostra que o grupo entende o sistema","textPreview":"O README mostra que o grupo entende o sistema","textChars":45,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/ixc7ax8v","slide":41,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/503qls76","slide":41,"text":"41","textPreview":"41","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/4zupcnql","slide":41,"bbox":[72,186,8,24]}
+{"kind":"textbox","id":"sh/va18fi94","slide":41,"text":"Identificação da disciplina, trabalho e integrantes.","textPreview":"Identificação da disciplina, trabalho e integrantes.","textChars":52,"textLines":1,"bbox":[92,178,960,42]}
+{"kind":"shape","id":"sh/u9s76d8j","slide":41,"bbox":[72,244,8,24]}
+{"kind":"textbox","id":"sh/sz294nql","slide":41,"text":"Descrição do sistema e instruções de execução.","textPreview":"Descrição do sistema e instruções de execução.","textChars":46,"textLines":1,"bbox":[92,236,960,42]}
+{"kind":"shape","id":"sh/d0bqxsrq","slide":41,"bbox":[72,302,8,24]}
+{"kind":"textbox","id":"sh/6xk72d8f","slide":41,"text":"Estrutura de diretórios do projeto.","textPreview":"Estrutura de diretórios do projeto.","textChars":35,"textLines":1,"bbox":[92,294,960,42]}
+{"kind":"shape","id":"sh/ryt8vi90","slide":41,"bbox":[72,360,8,24]}
+{"kind":"textbox","id":"sh/4vip03q9","slide":41,"text":"Explicação da LSE, LDE, Fila e Pilha no sistema.","textPreview":"Explicação da LSE, LDE, Fila e Pilha no sistema.","textChars":48,"textLines":1,"bbox":[92,352,960,42]}
+{"kind":"shape","id":"sh/5wbqt8ru","slide":41,"bbox":[72,418,8,24]}
+{"kind":"textbox","id":"sh/it07yd83","slide":41,"text":"Algoritmo de ordenação escolhido, Busca Binária e persistência.","textPreview":"Algoritmo de ordenação escolhido, Busca Binária e persistência.","textChars":63,"textLines":1,"bbox":[92,410,960,42]}
+{"kind":"shape","id":"sh/ju98ry9o","slide":41,"bbox":[72,476,8,24]}
+{"kind":"textbox","id":"sh/orm9c7qd","slide":41,"text":"Complexidade do algoritmo de ordenação e da Busca Binária.","textPreview":"Complexidade do algoritmo de ordenação e da Busca Binária.","textChars":58,"textLines":1,"bbox":[92,468,960,42]}
+{"kind":"notes","id":"nt/7hf6g4","slide":41,"text":""}
+{"kind":"slide","id":"sl/ub2ulg","slide":42,"title":"AVALIAÇÃO","textShapes":23}
+{"kind":"shape","id":"sh/b25oripo","slide":42,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/c3yp0n69","slide":42,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/x476t87u","slide":42,"text":"AVALIAÇÃO","textPreview":"AVALIAÇÃO","textChars":9,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/2dwnutor","slide":42,"text":"Entrega, participação e avaliação fecham o trabalho","textPreview":"Entrega, participação e avaliação fecham o trabalho","textChars":51,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/ne5onypc","slide":42,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/oze5w36x","slide":42,"text":"42","textPreview":"42","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/p0n6p87i","slide":42,"bbox":[72,172,930,44]}
+{"kind":"textbox","id":"sh/e9cnqtov","slide":42,"text":"Critério","textPreview":"Critério","textChars":8,"textLines":1,"bbox":[84,182,736,24]}
+{"kind":"textbox","id":"sh/falojypg","slide":42,"text":"Valor","textPreview":"Valor","textChars":5,"textLines":1,"bbox":[844,182,146,24]}
+{"kind":"shape","id":"sh/baxwr6ps","slide":42,"bbox":[72,216,930,44]}
+{"kind":"textbox","id":"sh/q9ovi1o7","slide":42,"text":"LSE e LDE","textPreview":"LSE e LDE","textChars":9,"textLines":1,"bbox":[84,226,736,24]}
+{"kind":"textbox","id":"sh/dczetg7y","slide":42,"text":"0,30","textPreview":"0,30","textChars":4,"textLines":1,"bbox":[844,226,146,24]}
+{"kind":"shape","id":"sh/cbqdkb6d","slide":42,"bbox":[72,260,930,44]}
+{"kind":"textbox","id":"sh/zehwv6p4","slide":42,"text":"Fila e Pilha","textPreview":"Fila e Pilha","textChars":12,"textLines":1,"bbox":[84,270,736,24]}
+{"kind":"textbox","id":"sh/yd8fmloj","slide":42,"text":"0,30","textPreview":"0,30","textChars":4,"textLines":1,"bbox":[844,270,146,24]}
+{"kind":"shape","id":"sh/lgzexg7u","slide":42,"bbox":[72,304,930,44]}
+{"kind":"textbox","id":"sh/0fqxob69","slide":42,"text":"Aplicação correta das estruturas","textPreview":"Aplicação correta das estruturas","textChars":32,"textLines":1,"bbox":[84,314,736,24]}
+{"kind":"textbox","id":"sh/fidwjmpk","slide":42,"text":"0,20","textPreview":"0,20","textChars":4,"textLines":1,"bbox":[844,314,146,24]}
+{"kind":"shape","id":"sh/uh4vah8z","slide":42,"bbox":[72,348,930,44]}
+{"kind":"textbox","id":"sh/ixczip8n","slide":42,"text":"Algoritmo de ordenação","textPreview":"Algoritmo de ordenação","textChars":22,"textLines":1,"bbox":[84,358,736,24]}
+{"kind":"textbox","id":"sh/jylgru98","slide":42,"text":"0,20","textPreview":"0,20","textChars":4,"textLines":1,"bbox":[844,358,146,24]}
+{"kind":"shape","id":"sh/kzuhkzqt","slide":42,"bbox":[72,392,930,44]}
+{"kind":"textbox","id":"sh/503it4re","slide":42,"text":"Busca Binária","textPreview":"Busca Binária","textChars":13,"textLines":1,"bbox":[84,402,736,24]}
+{"kind":"textbox","id":"sh/a9sze58r","slide":42,"text":"0,20","textPreview":"0,20","textChars":4,"textLines":1,"bbox":[844,402,146,24]}
+{"kind":"shape","id":"sh/valgna9c","slide":42,"bbox":[72,436,930,44]}
+{"kind":"textbox","id":"sh/wbuhgfqh","slide":42,"text":"POO e organização","textPreview":"POO e organização","textChars":17,"textLines":1,"bbox":[84,446,736,24]}
+{"kind":"textbox","id":"sh/xw3ypkr2","slide":42,"text":"0,25","textPreview":"0,25","textChars":4,"textLines":1,"bbox":[844,446,146,24]}
+{"kind":"shape","id":"sh/m5sza58f","slide":42,"bbox":[72,480,930,44]}
+{"kind":"textbox","id":"sh/n61gja90","slide":42,"text":"Funcionalidades obrigatórias","textPreview":"Funcionalidades obrigatórias","textChars":28,"textLines":1,"bbox":[84,490,736,24]}
+{"kind":"textbox","id":"sh/p072p8bi","slide":42,"text":"0,20","textPreview":"0,20","textChars":4,"textLines":1,"bbox":[844,490,146,24]}
+{"kind":"shape","id":"sh/4zy1g3ax","slide":42,"bbox":[72,524,930,44]}
+{"kind":"textbox","id":"sh/3ypknytc","slide":42,"text":"Persistência automática","textPreview":"Persistência automática","textChars":23,"textLines":1,"bbox":[84,534,736,24]}
+{"kind":"textbox","id":"sh/2xgjets7","slide":42,"text":"0,15","textPreview":"0,15","textChars":4,"textLines":1,"bbox":[844,534,146,24]}
+{"kind":"shape","id":"sh/hw72l8bm","slide":42,"bbox":[72,568,930,44]}
+{"kind":"textbox","id":"sh/gvy1c3a1","slide":42,"text":"Erros, Git, README e participação","textPreview":"Erros, Git, README e participação","textChars":33,"textLines":1,"bbox":[84,578,736,24]}
+{"kind":"textbox","id":"sh/fupkjytg","slide":42,"text":"0,20","textPreview":"0,20","textChars":4,"textLines":1,"bbox":[844,578,146,24]}
+{"kind":"notes","id":"nt/ub2ulg","slide":42,"text":""}
+{"kind":"slide","id":"sl/3jtw1q","slide":43,"title":"CHECKLIST FINAL","textShapes":27}
+{"kind":"shape","id":"sh/072tor2t","slide":43,"bbox":[0,0,1280,34]}
+{"kind":"shape","id":"sh/f6tcvm18","slide":43,"bbox":[0,34,255,8]}
+{"kind":"textbox","id":"sh/e5kbmhkn","slide":43,"text":"CHECKLIST FINAL","textPreview":"CHECKLIST FINAL","textChars":15,"textLines":1,"bbox":[72,62,760,26]}
+{"kind":"textbox","id":"sh/pwvu1wja","slide":43,"text":"Antes de finalizar, confiram tudo","textPreview":"Antes de finalizar, confiram tudo","textChars":33,"textLines":1,"bbox":[72,94,1080,52]}
+{"kind":"shape","id":"sh/ovmdsb25","slide":43,"bbox":[0,702,1280,18]}
+{"kind":"textbox","id":"sh/nutcz61k","slide":43,"text":"43","textPreview":"43","textChars":2,"textLines":1,"bbox":[1188,675,50,22]}
+{"kind":"shape","id":"sh/2tkvq1kz","slide":43,"bbox":[92,178,28,28]}
+{"kind":"textbox","id":"sh/50rupcj6","slide":43,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[97,178,20,24]}
+{"kind":"textbox","id":"sh/4zitg72l","slide":43,"text":"postagem no tópico ENTREGAS do AVA","textPreview":"postagem no tópico ENTREGAS do AVA","textChars":34,"textLines":1,"bbox":[134,176,475,32]}
+{"kind":"shape","id":"sh/elofmh83","slide":43,"bbox":[92,225,28,28]}
+{"kind":"textbox","id":"sh/zmxwvm9o","slide":43,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[97,225,20,24]}
+{"kind":"textbox","id":"sh/0n6xorq9","slide":43,"text":"nomes de todos os integrantes","textPreview":"nomes de todos os integrantes","textChars":29,"textLines":1,"bbox":[134,223,475,32]}
+{"kind":"shape","id":"sh/1ofyxwru","slide":43,"bbox":[92,272,28,28]}
+{"kind":"textbox","id":"sh/m9ofq18f","slide":43,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[97,272,20,24]}
+{"kind":"textbox","id":"sh/nahgzm90","slide":43,"text":"link correto do GitHub","textPreview":"link correto do GitHub","textChars":22,"textLines":1,"bbox":[134,270,475,32]}
+{"kind":"shape","id":"sh/obqxsrq5","slide":43,"bbox":[92,319,28,28]}
+{"kind":"textbox","id":"sh/9czy1w7q","slide":43,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[97,319,20,24]}
+{"kind":"textbox","id":"sh/ad8fu18b","slide":43,"text":"repositório público","textPreview":"repositório público","textChars":19,"textLines":1,"bbox":[134,317,475,32]}
+{"kind":"shape","id":"sh/behg36pw","slide":43,"bbox":[92,366,28,28]}
+{"kind":"textbox","id":"sh/7i1wr654","slide":43,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[97,366,20,24]}
+{"kind":"textbox","id":"sh/6hsfi1oj","slide":43,"text":"código completo disponível","textPreview":"código completo disponível","textChars":26,"textLines":1,"bbox":[134,364,475,32]}
+{"kind":"shape","id":"sh/tkjetgna","slide":43,"bbox":[92,413,28,28]}
+{"kind":"textbox","id":"sh/sjaxkb6p","slide":43,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[97,413,20,24]}
+{"kind":"textbox","id":"sh/jehwn65s","slide":43,"text":"README.md disponível","textPreview":"README.md disponível","textChars":20,"textLines":1,"bbox":[134,411,475,32]}
+{"kind":"shape","id":"sh/yd8ve1on","slide":43,"bbox":[664,178,28,28]}
+{"kind":"textbox","id":"sh/lgzepwny","slide":43,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[669,178,20,24]}
+{"kind":"textbox","id":"sh/kfqdgr6d","slide":43,"text":"arquivos de persistência incluídos","textPreview":"arquivos de persistência incluídos","textChars":34,"textLines":1,"bbox":[706,176,475,32]}
+{"kind":"shape","id":"sh/bqhwjm5w","slide":43,"bbox":[664,225,28,28]}
+{"kind":"textbox","id":"sh/apovahob","slide":43,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[669,225,20,24]}
+{"kind":"textbox","id":"sh/0vmtknm9","slide":43,"text":"programa executando corretamente","textPreview":"programa executando corretamente","textChars":32,"textLines":1,"bbox":[706,223,475,32]}
+{"kind":"shape","id":"sh/1wvuds3u","slide":43,"bbox":[664,272,28,28]}
+{"kind":"textbox","id":"sh/et4bid43","slide":43,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[669,272,20,24]}
+{"kind":"textbox","id":"sh/zudcbilo","slide":43,"text":"entrega até 11/09/2026 às 23:59","textPreview":"entrega até 11/09/2026 às 23:59","textChars":31,"textLines":1,"bbox":[706,270,475,32]}
+{"kind":"shape","id":"sh/oj6to7m5","slide":43,"bbox":[664,319,28,28]}
+{"kind":"textbox","id":"sh/9kfuhs3q","slide":43,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[669,319,20,24]}
+{"kind":"textbox","id":"sh/mh4bmx4f","slide":43,"text":"uma única postagem por grupo","textPreview":"uma única postagem por grupo","textChars":28,"textLines":1,"bbox":[706,317,475,32]}
+{"kind":"shape","id":"sh/nixcf2lk","slide":43,"bbox":[664,366,28,28]}
+{"kind":"textbox","id":"sh/4n2tc3m1","slide":43,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[669,366,20,24]}
+{"kind":"textbox","id":"sh/poba583m","slide":43,"text":"todos fizeram commits reais","textPreview":"todos fizeram commits reais","textChars":27,"textLines":1,"bbox":[706,364,475,32]}
+{"kind":"shape","id":"sh/xkn2l83q","slide":43,"bbox":[664,413,28,28]}
+{"kind":"textbox","id":"sh/wjelc3m5","slide":43,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[669,413,20,24]}
+{"kind":"textbox","id":"sh/vi5kjyl0","slide":43,"text":"todos entendem o sistema entregue","textPreview":"todos entendem o sistema entregue","textChars":33,"textLines":1,"bbox":[706,411,475,32]}
+{"kind":"notes","id":"nt/3jtw1q","slide":43,"text":""}
