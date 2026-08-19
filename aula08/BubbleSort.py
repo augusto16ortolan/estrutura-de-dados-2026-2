@@ -1,3 +1,4 @@
+# faz a comparacao entre vizinhos e troca se necessário
 
 def sort(lista):
     quantidade_de_dados = len(lista)
