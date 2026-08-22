@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorial GitHub em Grupo</title>
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --surface: #ffffff;
+      --text: #1f2933;
+      --muted: #5f6b7a;
+      --line: #d9dee7;
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --good: #0f766e;
+      --warn: #b45309;
+      --bad: #b91c1c;
+      --code-bg: #111827;
+      --code-text: #e5e7eb;
+      --shadow: 0 12px 34px rgba(15, 23, 42, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.55;
+    }
+
+    header {
+      background: #102033;
+      color: white;
+      padding: 42px 24px 36px;
+    }
+
+    .hero {
+      max-width: 1120px;
+      margin: 0 auto;
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      color: #bfdbfe;
+      font-size: 0.9rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 850px;
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 4rem);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    .hero p {
+      max-width: 760px;
+      margin: 18px 0 0;
+      color: #dbeafe;
+      font-size: 1.1rem;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 28px;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 28px 24px 56px;
+    }
+
+    nav {
+      position: sticky;
+      top: 16px;
+      align-self: start;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      padding: 16px;
+    }
+
+    nav strong {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 0.95rem;
+    }
+
+    nav a {
+      display: block;
+      color: var(--muted);
+      text-decoration: none;
+      padding: 7px 8px;
+      border-radius: 6px;
+      font-size: 0.92rem;
+    }
+
+    nav a:hover {
+      background: #edf3ff;
+      color: var(--primary);
+    }
+
+    main {
+      min-width: 0;
+    }
+
+    section {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      margin-bottom: 22px;
+      padding: 24px;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 1.65rem;
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin: 22px 0 10px;
+      font-size: 1.15rem;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+    }
+
+    li {
+      margin: 6px 0;
+    }
+
+    code {
+      background: #edf2f7;
+      color: #111827;
+      padding: 2px 5px;
+      border-radius: 4px;
+      font-family: Menlo, Consolas, monospace;
+      font-size: 0.92em;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .note {
+      border-left: 5px solid var(--primary);
+      background: #eff6ff;
+      padding: 14px 16px;
+      border-radius: 6px;
+      margin: 14px 0;
+    }
+
+    .note.good {
+      border-color: var(--good);
+      background: #ecfdf5;
+    }
+
+    .note.warn {
+      border-color: var(--warn);
+      background: #fffbeb;
+    }
+
+    .note.bad {
+      border-color: var(--bad);
+      background: #fef2f2;
+    }
+
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      margin: 18px 0;
+    }
+
+    .flow span {
+      background: #eef2ff;
+      border: 1px solid #c7d2fe;
+      color: #1e3a8a;
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-weight: 700;
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .flow b {
+      color: var(--muted);
+    }
+
+    .command {
+      margin: 14px 0;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid #263244;
+      background: var(--code-bg);
+    }
+
+    .command-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      padding: 9px 12px;
+      background: #1f2937;
+      color: #cbd5e1;
+      font-size: 0.88rem;
+    }
+
+    .copy-button {
+      border: 0;
+      border-radius: 6px;
+      background: var(--primary);
+      color: white;
+      cursor: pointer;
+      padding: 7px 10px;
+      font-weight: 700;
+    }
+
+    .copy-button:hover {
+      background: var(--primary-dark);
+    }
+
+    pre {
+      margin: 0;
+      padding: 16px;
+      overflow-x: auto;
+      color: var(--code-text);
+      font-family: Menlo, Consolas, monospace;
+      font-size: 0.92rem;
+      line-height: 1.45;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 14px 0;
+      font-size: 0.95rem;
+    }
+
+    th, td {
+      border: 1px solid var(--line);
+      padding: 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #f1f5f9;
+    }
+
+    .checklist {
+      list-style: none;
+      padding: 0;
+    }
+
+    .checklist li {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 10px 12px;
+      background: #fbfdff;
+    }
+
+    .checklist input {
+      margin-right: 8px;
+      transform: translateY(1px);
+    }
+
+    footer {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px 36px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    @media (max-width: 900px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      nav {
+        position: static;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="hero">
+      <p class="eyebrow">Estrutura de Dados - Trabalho em grupo</p>
+      <h1>Como trabalhar simultaneamente no GitHub</h1>
+      <p>
+        Tutorial para grupos de ate 7 alunos criarem branches, fazerem commits,
+        abrirem Pull Requests, revisarem codigo e entregarem um repositorio publico
+        com participacao real de todos.
+      </p>
+    </div>
+  </header>
+
+  <div class="layout">
+    <nav aria-label="Navegacao do tutorial">
+      <strong>Etapas</strong>
+      <a href="#visao-geral">Visao geral</a>
+      <a href="#conceitos">Conceitos essenciais</a>
+      <a href="#glossario">Glossario rapido</a>
+      <a href="#repositorio">Repositorio publico</a>
+      <a href="#primeiro-dia">Primeiro dia</a>
+      <a href="#configuracao">Configuracao inicial</a>
+      <a href="#branches">Branches</a>
+      <a href="#rotina">Rotina diaria</a>
+      <a href="#exemplos-fluxo">Exemplos de fluxo</a>
+      <a href="#commits">Commits e push</a>
+      <a href="#participacao">Provar participacao</a>
+      <a href="#pull-request">Pull Request</a>
+      <a href="#modelo-pr">Modelo de PR</a>
+      <a href="#merge">Review e merge</a>
+      <a href="#atualizar">Atualizar local</a>
+      <a href="#comandos-apoio">Comandos de apoio</a>
+      <a href="#conflitos">Conflitos</a>
+      <a href="#erros-comuns">Erros comuns</a>
+      <a href="#divisao">Divisao do grupo</a>
+      <a href="#checklist-aluno">Checklist por aluno</a>
+      <a href="#integracao">Fluxo de integracao</a>
+      <a href="#nao-facam">Nao facam isso</a>
+      <a href="#checklist">Checklist final</a>
+    </nav>
+
+    <main>
+      <section id="visao-geral">
+        <h2>1. Visao geral do fluxo</h2>
+        <p>
+          O grupo deve evitar trabalhar diretamente na branch principal. Cada aluno
+          cria sua propria branch, faz commits, envia para o GitHub e abre um Pull
+          Request para juntar o codigo ao projeto.
+        </p>
+
+        <div class="flow" aria-label="Fluxo principal">
+          <span>main</span><b>-></b>
+          <span>branch do aluno</span><b>-></b>
+          <span>commit</span><b>-></b>
+          <span>push</span><b>-></b>
+          <span>Pull Request</span><b>-></b>
+          <span>review</span><b>-></b>
+          <span>merge</span>
+        </div>
+
+        <div class="note warn">
+          <strong>Regra do trabalho:</strong> todos os integrantes precisam fazer commits
+          reais no repositorio. Nao vale apenas um aluno subir tudo pelo grupo.
+        </div>
+      </section>
+
+      <section id="conceitos">
+        <h2>2. Conceitos essenciais</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Termo</th>
+              <th>Significado</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>Repositorio remoto</code></td>
+              <td>Projeto hospedado no GitHub, acessivel para o grupo e para o professor.</td>
+            </tr>
+            <tr>
+              <td><code>Clone local</code></td>
+              <td>Copia do projeto no computador de cada aluno.</td>
+            </tr>
+            <tr>
+              <td><code>Branch</code></td>
+              <td>Linha separada de trabalho para mexer no codigo sem baguncar a <code>main</code>.</td>
+            </tr>
+            <tr>
+              <td><code>Commit</code></td>
+              <td>Registro de uma alteracao feita por um aluno.</td>
+            </tr>
+            <tr>
+              <td><code>Push</code></td>
+              <td>Envio dos commits locais para o GitHub.</td>
+            </tr>
+            <tr>
+              <td><code>Pull Request</code></td>
+              <td>Pedido para revisar e juntar uma branch na <code>main</code>.</td>
+            </tr>
+            <tr>
+              <td><code>Merge</code></td>
+              <td>Ato de juntar uma branch aprovada na branch principal.</td>
+            </tr>
+            <tr>
+              <td><code>Conflito</code></td>
+              <td>Acontece quando duas pessoas alteram a mesma parte do mesmo arquivo.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="glossario">
+        <h2>3. Glossario rapido</h2>
+        <p>Use estas frases curtas quando bater duvida durante o trabalho.</p>
+
+        <div class="grid">
+          <div class="note">
+            <strong>Commit</strong>
+            <p>Um ponto salvo na historia do projeto. Mostra o que mudou e quem mudou.</p>
+          </div>
+          <div class="note">
+            <strong>Push</strong>
+            <p>Enviar seus commits do computador para o GitHub.</p>
+          </div>
+          <div class="note">
+            <strong>Pull</strong>
+            <p>Baixar para seu computador as novidades que estao no GitHub.</p>
+          </div>
+          <div class="note">
+            <strong>Branch</strong>
+            <p>Uma linha separada de trabalho para desenvolver sem mexer direto na <code>main</code>.</p>
+          </div>
+          <div class="note">
+            <strong>Pull Request</strong>
+            <p>Pedido para revisar e juntar sua branch na branch principal.</p>
+          </div>
+          <div class="note">
+            <strong>Conflito</strong>
+            <p>Quando duas alteracoes mexem no mesmo trecho e o Git precisa de decisao humana.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="repositorio">
+        <h2>4. Criar e configurar o repositorio publico</h2>
+        <ol>
+          <li>Um integrante cria o repositorio no GitHub.</li>
+          <li>O repositorio deve ficar como <strong>Public</strong>.</li>
+          <li>O nome pode seguir o formato <code>estoque-vendas-estrutura-dados</code>.</li>
+          <li>Adicione um <code>README.md</code> inicial.</li>
+          <li>Convide os demais integrantes em <strong>Settings -> Collaborators</strong>.</li>
+        </ol>
+
+        <div class="note good">
+          Use um unico repositorio por grupo. Todos trabalham nele e aparecem no historico
+          de commits.
+        </div>
+      </section>
+
+      <section id="primeiro-dia">
+        <h2>5. Primeiro dia do grupo</h2>
+        <p>
+          Antes de dividir tarefas grandes, o grupo deve garantir que todos conseguem
+          acessar o repositorio, clonar, criar branch e fazer push.
+        </p>
+
+        <div class="flow" aria-label="Fluxo primeiro dia">
+          <span>criar repositorio publico</span><b>-></b>
+          <span>convidar colegas</span><b>-></b>
+          <span>aceitar convite</span><b>-></b>
+          <span>clonar</span><b>-></b>
+          <span>configurar Git</span><b>-></b>
+          <span>push de teste</span>
+        </div>
+
+        <ol>
+          <li>Um integrante cria o repositorio publico no GitHub.</li>
+          <li>Esse integrante adiciona todos os colegas como colaboradores.</li>
+          <li>Cada colega aceita o convite pelo GitHub ou pelo e-mail.</li>
+          <li>Cada aluno clona o repositorio no proprio computador.</li>
+          <li>Cada aluno confere nome e e-mail do Git.</li>
+          <li>Cada aluno cria uma branch de teste e faz um commit simples.</li>
+        </ol>
+
+        <div class="command">
+          <div class="command-bar">
+            <span>Teste de push no primeiro dia</span>
+            <button class="copy-button" type="button">Copiar</button>
+          </div>
+          <pre><code>git config --global --list
+git checkout main
+git pull origin main
+git checkout -b teste/nome-aluno
+git status
+git push origin teste/nome-aluno</code></pre>
+        </div>
+
+        <div class="note good">
+          Resultado esperado: cada aluno consegue enviar uma branch propria para o
+          GitHub. Isso evita descobrir problema de acesso no dia da entrega.
+        </div>
+      </section>
+
+      <section id="configuracao">
+        <h2>6. Configuracao inicial do Git</h2>
+        <p>Cada aluno deve configurar nome e e-mail no proprio computador.</p>
+
+        <div class="command">
+          <div class="command-bar">
+            <span>Configurar nome e e-mail</span>
+            <button class="copy-button" type="button">Copiar</button>
+          </div>
+          <pre><code>git config --global user.name "Seu Nome"
+git config --global user.email "seu-email@exemplo.com"
+git config --global --list</code></pre>
+        </div>
+
+        <p>Depois, cada aluno clona o repositorio do grupo:</p>
+
+        <div class="command">
+          <div class="command-bar">
+            <span>Clonar repositorio</span>
+            <button class="copy-button" type="button">Copiar</button>
+          </div>
+          <pre><code>git clone https://github.com/usuario/repositorio-do-grupo.git
+cd repositorio-do-grupo</code></pre>
+        </div>
+      </section>
+
+      <section id="branches">
+        <h2>7. Criar uma branch individual</h2>
+        <p>
+          Antes de alterar codigo, crie uma branch com seu nome e a funcionalidade.
+          Isso ajuda o grupo a saber quem esta mexendo em cada parte.
+        </p>
+
+        <div class="command">
+          <div class="command-bar">
+            <span>Criar branch</span>
+            <button class="copy-button" type="button">Copiar</button>
+          </div>
+          <pre><code>git checkout main
+git pull origin main
+git checkout -b feature/nome-aluno-clientes</code></pre>
+        </div>
+
+        <h3>Padrao recomendado</h3>
+        <ul>
+          <li><code>feature/nome-aluno-clientes</code></li>
+          <li><code>feature/nome-aluno-produtos</code></li>
+          <li><code>feature/nome-aluno-vendas</code></li>
+          <li><code>fix/nome-aluno-correcao-menu</code></li>
+        </ul>
+      </section>
+
+      <section id="rotina">
+        <h2>8. Rotina diaria de trabalho</h2>
+        <p>Antes de programar, atualize sua copia local. Depois trabalhe na sua branch.</p>
+
+        <div class="flow" aria-label="Rotina diaria">
+          <span>git pull</span><b>-></b>
+          <span>criar branch</span><b>-></b>
+          <span>alterar arquivos</span><b>-></b>
+          <span>testar</span><b>-></b>
+          <span>commit</span><b>-></b>
+          <span>push</span><b>-></b>
+          <span>PR</span>
+        </div>
+
+        <div class="command">
+          <div class="command-bar">
+            <span>Verificar estado do projeto</span>
+            <button class="copy-button" type="button">Copiar</button>
+          </div>
+          <pre><code>git status</code></pre>
+        </div>
+
+        <div class="note bad">
+          Evite alterar tudo de uma vez. Commits pequenos sao mais faceis de revisar e
+          ajudam a provar a participacao de cada integrante.
+        </div>
+      </section>
+
+      <section id="exemplos-fluxo">
+        <h2>9. Exemplos de fluxo</h2>
+        <p>
+          Os exemplos abaixo mostram situacoes comuns em um trabalho em grupo. A regra
+          principal se repete em todos: cada aluno trabalha em uma branch propria, faz
+          seus commits e abre Pull Request.
+        </p>
+
+        <h3>Fluxo 1: Ana implementa clientes</h3>
+        <p>
+          Ana ficou responsavel por implementar cadastro, busca e listagem de clientes
+          usando a LSE. Ela cria uma branch propria, faz commits pequenos e abre um PR.
+        </p>
+
+        <div class="flow" aria-label="Fluxo Ana clientes">
+          <span>main</span><b>-></b>
+          <span>feature/ana-clientes-lse</span><b>-></b>
+          <span>commits da Ana</span><b>-></b>
+          <span>push</span><b>-></b>
+          <span>PR</span><b>-></b>
+          <span>review</span><b>-></b>
+          <span>merge</span>
+        </div>
+
+        <div class="command">
+          <div class="command-bar">
+            <span>Fluxo individual completo</span>
+            <button class="copy-button" type="button">Copiar</button>
+          </div>
+          <pre><code>git checkout main
+git pull origin main
+git checkout -b feature/ana-clientes-lse
+git status
+git add .
+git commit -m "feat: implementar cadastro de clientes"
+git push origin feature/ana-clientes-lse</code></pre>
+        </div>
+
+        <div class="note good">
+          Resultado esperado: no GitHub aparece uma branch da Ana com commits proprios
+          e um Pull Request pronto para revisao.
+        </div>
+
+        <div class="note warn">
+          Erro comum: fazer tudo em um unico commit grande. Prefira commits menores,
+          como cadastro, busca e listagem em etapas separadas.
+        </div>
+
+        <h3>Fluxo 2: dois alunos trabalham ao mesmo tempo</h3>
+        <p>
+          Ana trabalha em clientes/LSE enquanto Bruno trabalha em produtos/LDE. Os dois
+          podem trabalhar ao mesmo tempo porque usam branches diferentes.
+        </p>
+
+        <div class="flow" aria-label="Fluxo simultaneo">
+          <span>main</span><b>-></b>
+          <span>feature/ana-clientes-lse</span><b>-></b>
+          <span>PR clientes</span><b>+</b>
+          <span>feature/bruno-produtos-lde</span><b>-></b>
+          <span>PR produtos</span>
+        </div>
+
+        <div class="grid">
+          <div class="command">
+            <div class="command-bar">
+              <span>Ana: clientes</span>
+              <button class="copy-button" type="button">Copiar</button>
+            </div>
+            <pre><code>git checkout main
+git pull origin main
+git checkout -b feature/ana-clientes-lse
+git add .
+git commit -m "feat: implementar lse de clientes"
+git push origin feature/ana-clientes-lse</code></pre>
+          </div>
+
+          <div class="command">
+            <div class="command-bar">
+              <span>Bruno: produtos</span>
+              <button class="copy-button" type="button">Copiar</button>
+            </div>
+            <pre><code>git checkout main
+git pull origin main
+git checkout -b feature/bruno-produtos-lde
+git add .
+git commit -m "feat: implementar lde de produtos"
+git push origin feature/bruno-produtos-lde</code></pre>
+          </div>
+        </div>
+
+        <div class="note good">
+          Resultado esperado: o GitHub mostra dois Pull Requests separados, cada um com
+          o historico de quem trabalhou naquela parte.
+        </div>
+
+        <div class="note warn">
+          Erro comum: os dois alterarem o mesmo arquivo sem combinar. Se precisarem
+          mexer em `main.py` ou `README.md`, conversem antes.
+        </div>
+
+        <h3>Fluxo 3: atualizar branch depois que outro PR foi mergeado</h3>
+        <p>
+          Bruno ainda esta trabalhando em produtos, mas o PR de Ana ja foi mergeado na
+          `main`. Bruno deve trazer as novidades da `main` para sua branch antes de
+          continuar.
+        </p>
+
+        <div class="flow" aria-label="Fluxo atualizacao de branch">
+          <span>PR da Ana mergeado</span><b>-></b>
+          <span>Bruno atualiza main</span><b>-></b>
+          <span>volta para sua branch</span><b>-></b>
+          <span>git merge main</span><b>-></b>
+          <span>continua trabalho</span>
+        </div>
+
+        <div class="command">
+          <div class="command-bar">
+            <span>Atualizar branch com main recente</span>
+            <button class="copy-button" type="button">Copiar</button>
+          </div>
+          <pre><code>git checkout main
+git pull origin main
+git checkout feature/bruno-produtos-lde
+git merge main</code></pre>
+        </div>
+
+        <div class="note good">
+          Resultado esperado: a branch de Bruno passa a conter tambem as alteracoes que
+          Ana ja juntou na `main`.
+        </div>
+
+        <div class="note warn">
+          Erro comum: abrir PR com a branch muito desatualizada. Isso aumenta a chance
+          de conflitos e dificulta a revisao.
+        </div>
+
+        <h3>Fluxo 4: conflito simples no README ou main.py</h3>
+        <p>
+          Ana e Bruno alteraram a mesma linha do `README.md` ou do `main.py`. O Git nao
+          sabe qual versao manter e marca um conflito para o grupo resolver manualmente.
+        </p>
+
+        <div class="flow" aria-label="Fluxo conflito">
+          <span>duas alteracoes no mesmo trecho</span><b>-></b>
+          <span>Git marca conflito</span><b>-></b>
+          <span>grupo conversa</span><b>-></b>
+          <span>edita arquivo</span><b>-></b>
+          <span>commit de resolucao</span><b>-></b>
+          <span>push</span>
+        </div>
+
+        <div class="command">
+          <div class="command-bar">
+            <span>Ver conflito e finalizar resolucao</span>
+            <button class="copy-button" type="button">Copiar</button>
+          </div>
+          <pre><code>git status
+# abrir o arquivo com conflito e editar manualmente
+git add .
+git commit -m "fix: resolver conflito"
+git push origin feature/nome-da-branch</code></pre>
+        </div>
+
+        <div class="note good">
+          Resultado esperado: o Pull Request volta a ficar sem conflito e pode ser
+          revisado pelo grupo.
+        </div>
+
+        <div class="note bad">
+          Erro comum: apagar a parte do colega sem entender. Em conflito, conversem e
+          deixem no arquivo a versao correta para o projeto.
+        </div>
+      </section>
+
+      <section id="commits">
+        <h2>10. Commit e push</h2>
+        <p>Depois de alterar e testar, registre suas mudancas com commit.</p>
+
+        <div class="command">
+          <div class="command-bar">
+            <span>Adicionar e commitar</span>
+            <button class="copy-button" type="button">Copiar</button>
+          </div>
+          <pre><code>git status
+git add .
+git commit -m "feat: cadastrar clientes"</code></pre>
+        </div>
+
+        <div class="command">
+          <div class="command-bar">
+            <span>Enviar branch para o GitHub</span>
+            <button class="copy-button" type="button">Copiar</button>
+          </div>
+          <pre><code>git push origin feature/nome-aluno-clientes</code></pre>
+        </div>
+
+        <h3>Mensagens de commit</h3>
+        <ul>
+          <li><code>feat: cadastrar clientes</code></li>
+          <li><code>fix: corrigir validacao de estoque</code></li>
+          <li><code>docs: atualizar README</code></li>
+          <li><code>refactor: reorganizar service</code></li>
+        </ul>
+      </section>
+
+      <section id="participacao">
+        <h2>11. Como provar participacao</h2>
+        <p>
+          A participacao aparece no GitHub quando cada integrante faz commits com seu
+          proprio usuario, nome e e-mail configurados corretamente.
+        </p>
+
+        <div class="grid">
+          <div class="note good">
+            <strong>Onde conferir</strong>
+            <p>Abra o repositorio no GitHub e veja a aba de commits ou acesse <strong>Insights -> Contributors</strong>.</p>
+          </div>
+          <div class="note warn">
+            <strong>Cuidado</strong>
+            <p>Se um aluno commitar no computador de outro, o commit pode aparecer com nome/e-mail errado.</p>
+          </div>
+        </div>
+
+        <div class="command">
+          <div class="command-bar">
+            <span>Conferir autor dos commits</span>
+            <button class="copy-button" type="button">Copiar</button>
+          </div>
+          <pre><code>git config --global --list
+git log --oneline --decorate</code></pre>
+        </div>
+
+        <ul>
+          <li>Cada integrante deve ter commits no historico.</li>
+          <li>Cada commit deve representar uma alteracao real no projeto.</li>
+          <li>O grupo deve evitar que uma unica pessoa suba tudo no final.</li>
+        </ul>
+      </section>
+
+      <section id="pull-request">
+        <h2>12. Abrir Pull Request</h2>
+        <ol>
+          <li>Entre no repositorio do grupo no GitHub.</li>
+          <li>Clique em <strong>Compare & pull request</strong>.</li>
+          <li>Confira se a branch de origem e a sua branch.</li>
+          <li>Confira se o destino e <code>main</code>.</li>
+          <li>Escreva um titulo claro e explique o que foi feito.</li>
+          <li>Peça para pelo menos um colega revisar.</li>
+        </ol>
+
+        <div class="note good">
+          Um bom PR explica o que mudou, quais arquivos principais foram alterados e
+          como testar.
+        </div>
+      </section>
+
+      <section id="modelo-pr">
+        <h2>13. Modelo de Pull Request</h2>
+        <p>Copie este modelo para descrever melhor o PR no GitHub.</p>
+
+        <div class="command">
+          <div class="command-bar">
+            <span>Modelo de descricao de PR</span>
+            <button class="copy-button" type="button">Copiar</button>
+          </div>
+          <pre><code>Titulo: feat: implementar cadastro de produtos
+
+O que foi feito:
+- Criei a classe Produto
+- Implementei cadastro no menu
+- Salvei produtos no CSV
+
+Arquivos principais:
+- models/produto.py
+- services/estoque_service.py
+- data/produtos.csv
+
+Como testar:
+- Rodar python3 main.py
+- Escolher a opcao 5
+- Cadastrar um produto
+- Listar produtos na opcao 6
+
+Observacoes para o revisor:
+- Conferir se o ID esta sequencial
+- Conferir se preco negativo e bloqueado</code></pre>
+        </div>
+
+        <div class="note good">
+          Um PR bem explicado facilita a revisao e mostra que o aluno entende o que
+          alterou.
+        </div>
+      </section>
+
+      <section id="merge">
+        <h2>14. Review e merge</h2>
+        <p>
+          O grupo deve revisar antes de juntar na <code>main</code>. A revisao evita
+          que uma parte quebre outra.
+        </p>
+
+        <ol>
+          <li>Leia os arquivos alterados no Pull Request.</li>
+          <li>Comente se encontrar erro ou duvida.</li>
+          <li>Rode o projeto localmente quando possivel.</li>
+          <li>Depois da aprovacao, clique em <strong>Merge pull request</strong>.</li>
+          <li>Apague a branch remota se o GitHub oferecer essa opcao.</li>
+        </ol>
+
+        <div class="note warn">
+          Nao faca merge de codigo que nao roda ou que ninguem entendeu. O grupo inteiro
+          precisa conseguir explicar a entrega.
+        </div>
+      </section>
+
+      <section id="atualizar">
+        <h2>15. Atualizar o projeto local depois do merge</h2>
+        <p>Quando alguem faz merge, todos devem atualizar a copia local.</p>
+
+        <div class="command">
+          <div class="command-bar">
+            <span>Atualizar main local</span>
+            <button class="copy-button" type="button">Copiar</button>
+          </div>
+          <pre><code>git checkout main
+git pull origin main</code></pre>
+        </div>
+
+        <p>Se for continuar trabalhando, crie outra branch a partir da <code>main</code> atualizada.</p>
+      </section>
+
+      <section id="comandos-apoio">
+        <h2>16. Comandos seguros de apoio</h2>
+        <p>
+          Estes comandos ajudam a se localizar no projeto sem alterar o historico do
+          Git. Use sempre que estiver em duvida.
+        </p>
+
+        <div class="grid">
+          <div class="command">
+            <div class="command-bar">
+              <span>Ver estado e branches</span>
+              <button class="copy-button" type="button">Copiar</button>
+            </div>
+            <pre><code>git status
+git branch</code></pre>
+          </div>
+
+          <div class="command">
+            <div class="command-bar">
+              <span>Ver historico curto</span>
+              <button class="copy-button" type="button">Copiar</button>
+            </div>
+            <pre><code>git log --oneline</code></pre>
+          </div>
+
+          <div class="command">
+            <div class="command-bar">
+              <span>Trocar de branch</span>
+              <button class="copy-button" type="button">Copiar</button>
+            </div>
+            <pre><code>git checkout nome-da-branch</code></pre>
+          </div>
+
+          <div class="command">
+            <div class="command-bar">
+              <span>Restaurar arquivo com cuidado</span>
+              <button class="copy-button" type="button">Copiar</button>
+            </div>
+            <pre><code>git restore nome-do-arquivo</code></pre>
+          </div>
+        </div>
+
+        <div class="note bad">
+          Cuidado com <code>git restore</code>: ele descarta alteracoes locais daquele
+          arquivo. Use apenas quando tiver certeza de que pode perder essas alteracoes.
+        </div>
+      </section>
+
+      <section id="conflitos">
+        <h2>17. Resolver conflitos basicos</h2>
+        <p>
+          Conflito acontece quando o Git nao consegue decidir sozinho qual versao manter.
+          Normalmente aparece quando duas pessoas mexem no mesmo trecho do mesmo arquivo.
+        </p>
+
+        <div class="command">
+          <div class="command-bar">
+            <span>Trazer main para sua branch</span>
+            <button class="copy-button" type="button">Copiar</button>
+          </div>
+          <pre><code>git checkout feature/nome-aluno-clientes
+git pull origin main</code></pre>
+        </div>
+
+        <p>Se aparecer conflito:</p>
+        <ol>
+          <li>Abra o arquivo indicado pelo Git.</li>
+          <li>Procure marcas como <code>&lt;&lt;&lt;&lt;&lt;&lt;&lt;</code>, <code>=======</code> e <code>&gt;&gt;&gt;&gt;&gt;&gt;&gt;</code>.</li>
+          <li>Converse com quem alterou a outra parte.</li>
+          <li>Edite o arquivo deixando a versao correta.</li>
+          <li>Salve, teste e finalize o commit.</li>
+        </ol>
+
+        <div class="command">
+          <div class="command-bar">
+            <span>Finalizar conflito resolvido</span>
+            <button class="copy-button" type="button">Copiar</button>
+          </div>
+          <pre><code>git status
+git add .
+git commit -m "fix: resolver conflito"
+git push origin feature/nome-aluno-clientes</code></pre>
+        </div>
+      </section>
+
+      <section id="erros-comuns">
+        <h2>18. Erros comuns e como resolver</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Problema</th>
+              <th>Como agir</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Fiz commit direto na <code>main</code></td>
+              <td>Avise o grupo, faca push apenas se todos concordarem e volte a usar branches nos proximos commits.</td>
+            </tr>
+            <tr>
+              <td>Esqueci de fazer <code>git pull</code></td>
+              <td>Atualize a branch antes de abrir PR e resolva conflitos se aparecerem.</td>
+            </tr>
+            <tr>
+              <td>O push foi rejeitado</td>
+              <td>Alguem enviou mudancas antes. Baixe as novidades e envie novamente.</td>
+            </tr>
+            <tr>
+              <td>Mensagem de commit ficou ruim</td>
+              <td>Nos proximos commits, use mensagens claras como <code>feat: implementar fila de vendas</code>.</td>
+            </tr>
+            <tr>
+              <td>Alterei arquivo errado</td>
+              <td>Confira com <code>git status</code>. Se ainda nao commitou, restaure com cuidado.</td>
+            </tr>
+            <tr>
+              <td>Conflito com codigo do colega</td>
+              <td>Conversem, decidam a versao correta, editem o arquivo e facam commit da resolucao.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="command">
+          <div class="command-bar">
+            <span>Quando o push for rejeitado</span>
+            <button class="copy-button" type="button">Copiar</button>
+          </div>
+          <pre><code>git pull origin nome-da-sua-branch
+git push origin nome-da-sua-branch</code></pre>
+        </div>
+
+        <div class="note warn">
+          Evite comandos destrutivos quando estiver em duvida. Antes de apagar ou
+          restaurar arquivos, converse com o grupo.
+        </div>
+      </section>
+
+      <section id="divisao">
+        <h2>19. Divisao sugerida para ate 7 alunos</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Integrante</th>
+              <th>Responsabilidade sugerida</th>
+              <th>Branch exemplo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Aluno 1</td>
+              <td>Modelos e README</td>
+              <td><code>feature/aluno1-modelos-readme</code></td>
+            </tr>
+            <tr>
+              <td>Aluno 2</td>
+              <td>Clientes e LSE</td>
+              <td><code>feature/aluno2-clientes-lse</code></td>
+            </tr>
+            <tr>
+              <td>Aluno 3</td>
+              <td>Produtos e LDE</td>
+              <td><code>feature/aluno3-produtos-lde</code></td>
+            </tr>
+            <tr>
+              <td>Aluno 4</td>
+              <td>Vendas e Fila</td>
+              <td><code>feature/aluno4-vendas-fila</code></td>
+            </tr>
+            <tr>
+              <td>Aluno 5</td>
+              <td>Desfazer e Pilha</td>
+              <td><code>feature/aluno5-desfazer-pilha</code></td>
+            </tr>
+            <tr>
+              <td>Aluno 6</td>
+              <td>Ordenacao e Busca Binaria</td>
+              <td><code>feature/aluno6-algoritmos</code></td>
+            </tr>
+            <tr>
+              <td>Aluno 7</td>
+              <td>Persistencia, testes e integracao</td>
+              <td><code>feature/aluno7-persistencia-testes</code></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="checklist-aluno">
+        <h2>20. Checklist por aluno</h2>
+        <p>
+          Esta tabela ajuda o grupo a verificar se todos tiveram participacao visivel
+          no GitHub.
+        </p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Integrante</th>
+              <th>Branch usada</th>
+              <th>Commits proprios</th>
+              <th>PR aberto</th>
+              <th>PR revisado</th>
+              <th>PR mergeado</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Aluno 1</td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td>Aluno 2</td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td>Aluno 3</td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td>Aluno 4</td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td>Aluno 5</td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td>Aluno 6</td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td>Aluno 7</td><td></td><td></td><td></td><td></td><td></td></tr>
+          </tbody>
+        </table>
+
+        <div class="note warn">
+          Antes da entrega, confiram se todos aparecem nos commits do GitHub. Se alguem
+          nao aparece, o grupo ainda precisa organizar uma contribuicao real dessa pessoa.
+        </div>
+      </section>
+
+      <section id="integracao">
+        <h2>21. Fluxo recomendado de integracao</h2>
+        <p>
+          Nem toda parte do trabalho deve ser mergeada em qualquer ordem. Um caminho
+          simples reduz conflitos e facilita os testes.
+        </p>
+
+        <div class="flow" aria-label="Fluxo recomendado de integracao">
+          <span>modelos</span><b>-></b>
+          <span>clientes/produtos</span><b>-></b>
+          <span>vendas</span><b>-></b>
+          <span>desfazer</span><b>-></b>
+          <span>relatorios</span><b>-></b>
+          <span>README/testes</span>
+        </div>
+
+        <ol>
+          <li>Integre primeiro classes base e estruturas.</li>
+          <li>Depois integre clientes e produtos.</li>
+          <li>Em seguida, implemente vendas e fila.</li>
+          <li>Depois complete pilha e desfazer.</li>
+          <li>Finalize relatorios, README e testes manuais.</li>
+        </ol>
+      </section>
+
+      <section id="nao-facam">
+        <h2>22. Nao facam isso</h2>
+        <ul class="checklist">
+          <li>Nao deixem para subir tudo no ultimo dia.</li>
+          <li>Nao trabalhem todos diretamente na <code>main</code>.</li>
+          <li>Nao apaguem codigo do colega sem conversar.</li>
+          <li>Nao misturem varias funcionalidades sem relacao no mesmo commit.</li>
+          <li>Nao deixem integrante sem commit proprio.</li>
+          <li>Nao copiem projeto de outro grupo.</li>
+          <li>Nao facam merge de codigo que ninguem testou.</li>
+        </ul>
+      </section>
+
+      <section id="checklist">
+        <h2>23. Checklist final antes da entrega</h2>
+        <ul class="checklist">
+          <li><label><input type="checkbox"> O repositorio esta publico.</label></li>
+          <li><label><input type="checkbox"> Todos os integrantes foram adicionados ao repositorio.</label></li>
+          <li><label><input type="checkbox"> Todos fizeram commits proprios.</label></li>
+          <li><label><input type="checkbox"> O historico mostra participacao real do grupo.</label></li>
+          <li><label><input type="checkbox"> As funcionalidades principais foram testadas pelo terminal.</label></li>
+          <li><label><input type="checkbox"> Os arquivos CSV estao junto com o projeto.</label></li>
+          <li><label><input type="checkbox"> O README do grupo explica como executar o sistema.</label></li>
+          <li><label><input type="checkbox"> Nao ha Pull Requests importantes pendentes.</label></li>
+          <li><label><input type="checkbox"> A branch <code>main</code> contem a versao final.</label></li>
+          <li><label><input type="checkbox"> O link correto do GitHub foi separado para entrega no AVA.</label></li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    Material de apoio para o trabalho avaliativo de Estrutura de Dados. Use este fluxo
+    para organizar o grupo, reduzir conflitos e garantir commits de todos os integrantes.
+  </footer>
+
+  <script>
+    const buttons = document.querySelectorAll(".copy-button");
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", async () => {
+        const command = button.closest(".command");
+        const code = command.querySelector("code").innerText;
+        const originalText = button.innerText;
+
+        try {
+          await navigator.clipboard.writeText(code);
+          button.innerText = "Copiado";
+        } catch (error) {
+          button.innerText = "Selecione";
+        }
+
+        setTimeout(() => {
+          button.innerText = originalText;
+        }, 1600);
+      });
+    });
+  </script>
+</body>
+</html>
